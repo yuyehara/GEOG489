@@ -1,5 +1,5 @@
                              
-#Geography 489: Applied GIS  (Spring 2016) <br/>Syllabus and Schedule
+#Geography 489: Applied GIS  (Spring 2017) <br/>Syllabus and Schedule
 
 #####Instructor: Yi Qiang <br/>Email: yi_qiang@hotmail.com <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Monday 1:00-2:00 PM or by appointment
 
