@@ -31,14 +31,16 @@ Optional reference books (use them if you want to learn more than covered in the
 
 ###Grading:
 * Break-down
+
 |Component	|Score (%)|
-|-----------|---------|
+|---------|---------|
 |6 Labs	|60|
 |1 Course project	|30|
 |Participation	|10 (5 in-class, 5 forum)| 
 |Total	|100|
 
 *	Scale
+
 |A+ 97.5-100	|B+ 87.5-89.99	|C+ 77.5-79.99	|D+ 60.0-64.49|
 |---------------|-------|--------|--------|
 |A   92.5-97.49	|B   82.5-87.49	|C   70-77.49	|D   50.0-59.99|
@@ -75,9 +77,11 @@ If you have any challenges to learning and need support of any kind, you are inv
 ![]()
 
   
-###Class /day    Date      Content                   
+###Class
+
+|day |   Date    |  Content|
+|---|---|---|
 |Wk 1: Fri	|Jan 13	|Course Intro; Lab 1. Geoprocessing with ArcGIS Desktop: online course|
-|----|||
 |Wk 2: Fri	|20	|Lab 1 Continues|
 |Wk 3: Fri	|27	|Suitability modeling – General suitability modeling; Lab 2|
 |Wk 4: Fri	|Feb 3	|Suitability modeling – Predictive habitat suitability modeling; Lab 2|
