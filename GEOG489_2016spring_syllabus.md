@@ -75,7 +75,6 @@ To that end, **unexcused absences of 5 or more will result in a failing grade fo
 
 If you have any challenges to learning and need support of any kind, you are invited to contract your instructor or the Kokua Center for assistance or questions.  
 
-![]()
 
   
 ###Class
