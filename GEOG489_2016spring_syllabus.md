@@ -1,5 +1,5 @@
                              
-#Geography 489: Applied GIS <br/>Course Syllabus and Schedule <br/>Spring 2016
+#Geography 489: Applied GIS  <br/>Spring 2016
 
 #####Instructor: Yi Qiang <br/>Email: yi_qiang@hotmail.com <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Monday 1:00-2:00 PM or by appointment
 
@@ -18,10 +18,10 @@ Geography 489 is to demonstrate the use of Geographic Information Systems (GIS) 
 * 	To practice the use of advanced GIS techniques;
 * 	To obtain in-depth knowledge of a selected topic through an independent project.
 
-####Prerequisite 
+##Prerequisite 
 GEOG388 (former GEOG488) or equivalent GIS knowledge and skills.  More detailed expected knowledge is described in the lecture slides.
 
-####Course materials
+##Course materials
 Weekly required readings (most from journals) will be posted on the laulima website. **Do the readings before lectures!!!**
 
 Optional reference books (use them if you want to learn more than covered in the class):
@@ -30,8 +30,8 @@ Optional reference books (use them if you want to learn more than covered in the
 
 *Michael N. DeMers. 2002. GIS Modeling in Raster. John Wiley and Sons, Inc. ISBN: 978-0-471-31965-8. (spatial modeling with raster data)*
 
-###Grading:
-* Break-down
+##Grading:
+####Break-down
 
 |Component	|Score (%)|
 |---------|---------|
@@ -40,7 +40,7 @@ Optional reference books (use them if you want to learn more than covered in the
 |Participation	|10 (5 in-class, 5 forum)| 
 |Total	|100|
 
-*	Scale
+####Scale
 
 |A+ 97.5-100	|B+ 87.5-89.99	|C+ 77.5-79.99	|D+ 60.0-64.49|
 |---------------|-------|--------|--------|
@@ -101,30 +101,4 @@ If you have any challenges to learning and need support of any kind, you are inv
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Important Note: This syllabus is tentative and may change. This is updated on December 8, 2016. 
+**Important Note: This syllabus is tentative and may change. This is updated on December 8, 2016.**
