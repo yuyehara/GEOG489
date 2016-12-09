@@ -6,7 +6,7 @@
 #####Teaching Assistant: Katie Taladay<br/>Email: taladay@hawaii.edu<br/>Office: Saunders 422 <br/>Office hours: Wednesday 1:00-3:00 PM or by appointment <br/>
 #####Course website:<br/> http://laulima.hawaii.edu (for readings and assignments)<br/>https://github.com/qiang-yi/GEOG489 (for code and demos)
 
-#####Class time: Friday – 2PM to 4:30 PM <br/>Location: Physical Sciences Building 310 
+#####Class time: Friday – 9AM to 11:30 AM <br/>Location: Physical Sciences Building 310 
 ---
 
 
