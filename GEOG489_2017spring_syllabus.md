@@ -88,7 +88,7 @@ If you have any challenges to learning and need support of any kind, you are inv
 |Wk 3: Fri	|27	|Suitability modeling – General suitability modeling; Lab 2|
 |Wk 4: Fri	|Feb 3	|Suitability modeling – Predictive habitat suitability modeling; Lab 2|
 |Wk 5: Fri	|10	|Land cover change modeling – Change and time-series analysis; Lab 3|
-|Wk 6: Fri	|17	|Land cover change modeling  – Fragmentation analysis; Lab 3|
+|Wk 6: Fri	|17	|Land cover change modeling  – Simulation; Lab 3|
 |Wk 7: Fri	|24	|Terrain and watershed analysis – General terrain analysis techniques ; Lab 4|
 |Wk 8: Fri	|Mar 3	|Project proposal/progress meeting |
 |Wk 9: Fri	|10	|Terrain and watershed analysis – Stream and watershed delineation; Lab 4|
