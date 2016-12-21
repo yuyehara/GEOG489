@@ -1,7 +1,7 @@
                              
 #Geography 489: Applied GIS  (Spring 2017) <br/>Syllabus and Schedule
 
-#####Instructor: Yi Qiang <br/>Email: yi_qiang@hotmail.com <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Monday 1:00-2:00 PM or by appointment
+#####Instructor: Yi Qiang <br/>Email: yi.qiang@hawaii.edu <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Monday 1:00-2:00 PM or by appointment
 
 #####Teaching Assistant: Katie Taladay<br/>Email: taladay@hawaii.edu<br/>Office: Saunders 422 <br/>Office hours: Wednesday 1:00-3:00 PM or by appointment <br/>
 #####Course website:<br/> http://laulima.hawaii.edu (for readings and assignments)<br/>https://github.com/qiang-yi/GEOG489 (for code and demos)
