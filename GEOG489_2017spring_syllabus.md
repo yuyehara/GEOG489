@@ -56,7 +56,7 @@ Please note you may work together on labs, but you each must do every part of ea
 
 All labs will be done in computer. We will set up an account for every student in the computer lab. The software to be used is **ArcGIS 10, its extensions (such as spatial analyst and 3D analyst), and some open-source packages (e.g. GDAL) for specific applications.**
 
-Students need to submit lab reports for each lab. The lab report should be in **Microsoft Word** or **pdf** file format and submitted to Laulima. Lab instructions will contain numbered questions to be answered and very specific deliverables in terms of maps, tables and graphs.
+Students need to submit lab reports for each lab. The lab report should be in **Microsoft Word** or **PDF** file format and submitted to Laulima. Lab instructions will contain numbered questions to be answered and very specific deliverables in terms of maps, tables and graphs.
 
 ###Course Project
 For the course project topics, you can select from a set of suggested projects, or expand on an existing lab assignment, or even develop your own project. 
