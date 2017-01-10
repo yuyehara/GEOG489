@@ -12,8 +12,6 @@ GIS models are used for many applications. If you are using a map then you are u
 
 The following video demonstrates a model used in a parcel owner notification application.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Zw27zPrwMcw" frameborder="0" allowfullscreen></iframe>
-
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Zw27zPrwMcw" target="_blank"><img src="http://img.youtube.com/vi/Zw27zPrwMcw/0.jpg" alt="IMAGE ALT TEXT HERE" width="480" height="360" border="5" /></a>
 
 **Model**<sup>1</sup>: An abstraction of reality used to represent objects, processes, or events; in geoprocessing in ArcGIS, one process or a sequence of connected processes created in ModelBuilder.
@@ -48,8 +46,10 @@ To create a geoprocessing model in ArcGIS, you need to use the ModelBuilder appl
 Following are some examples of models that have been built using ModelBuilder to perform various types of geoprocessing.
 ![alt text][F5]
 [F5]: lab1_data/misc/Iterator.png "Logo Title Text 2"
+
 **Figure 5**: This model was created in ModelBuilder. This type of model is common in GIS and can be used to represent a process or analysis workflow. But there are other types of models that you can use in ArcGIS, as well.
 ![alt text](lab1_data/misc/Ski.png "Logo Title Text 1")
+
 **Figure 6**: This model uses Spatial Analyst tools to analyze raster data for a ski resort suitability analysis.
 
 ######The following table lists some of the numerous advantages of building models in ModelBuilder:
@@ -81,10 +81,13 @@ Models represent a continuous geoprocessing workflow, so processes that occur la
 
 **Knowing about model states can help you make sure that your models are ready to run and will run as expected.**
 ![alt text](lab1_data/misc/NotReady1.png "Logo Title Text 1")
+
 **Figure 8**: **_Not ready to run_**. When model elements are white, they are NOT ready to run. The reasons for elements not being ready to run are varied. Maybe a tool parameter isn't properly set, or maybe the input data is incomplete, corrupt, or has some other problem.
 ![alt text](lab1_data/misc/Ready.png "Logo Title Text 1")
+
 **Figure 9**: **_Ready to run_**. Model elements that are displayed in color are ready to run. The parameters for these elements have all been properly set.
 ![alt text](lab1_data/misc/Has_been_run.png "Logo Title Text 1")
+
 **Figure 9**: **_Already run_**. The shadow, or shading, behind a model element indicates that the element has already been run. Only tool and derived data elements will display a shadow. Input data elements won't display a shadow because these elements are used only to produce derived data.
 
 ###Model environment settings
@@ -105,7 +108,7 @@ Environment settings have a hierarchical structure and can be overridden at some
 **Environment setting**<sup>5</sup>: Additional parameters that affect a tool's result. Environment settings are set separately from the tool parameters before running the tool and are used during the tool's execution.
 
 ###Exercise 1: Explore an existing model
-Please complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
+> Please complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
 
 ##Creating and using models
 
@@ -137,9 +140,8 @@ If you're planning to build a model, you can follow this set of guidelines to he
 |Build and run a model. By this time, you have already determined everything you need to complete your model.|
 |Explore and refine the results of your model. You might view, analyze, and symbolize your results to determine whether they are satisfactory. You can run the model again with different tool inputs, if needed.|
 
-###Exercise: Prepare for your analysis
-
-Please complete the exercise following the instruction [here](lab1_data/misc/Exercise2.pdf).
+###Exercise 2: Prepare for your analysis
+> Please complete the exercise following the instruction [here](lab1_data/misc/Exercise2.pdf).
 
 ###Exploring tool and model parameters
 
@@ -191,8 +193,10 @@ You can add labels to the model itself that show the workflow and describe a par
 ![alt text](lab1_data/misc/Labelforconnector.png "Logo Title Text 1")
 **Figure 12**: An example of a connector label.
 
+
 ###Exercise 3: Exercise: Build a site selection model
-Please complete the exercise following the instruction [here](lab1_data/misc/Exercise3.pdf).
+>Please complete the exercise following the instruction [here](lab1_data/misc/Exercise3.pdf).
+
 
 ###Exercise 4: Run the model and work with parameters
-Please complete the exercise following the instruction [here](lab1_data/misc/Exercise4.pdf).
+>Please complete the exercise following the instruction [here](lab1_data/misc/Exercise4.pdf).
