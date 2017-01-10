@@ -112,13 +112,20 @@ Union| Surface interpolation
 * The key requirement here is that most of the data should be available in usable form at the outset of the project, so that you end up spending most of your time doing analysis. 
 ---
 
+<<<<<<< HEAD
 # Project Deliverables
+=======
+# Project Deliverables (1)
+>>>>>>> 5603d93081f13a82139bb883f43c1379a05b280f
 * Project Proposal (less than 1 page) 
     + Motivation for doing this project (4-5 sentences). Include any relevant citations/figures.
     + A clearly stated hypothesis (1-2 sentences).
     + An outline of the datasets you need and methods to analyze them.
+<<<<<<< HEAD
 ---
 # Project Deliverables
+=======
+>>>>>>> 5603d93081f13a82139bb883f43c1379a05b280f
 * Project Report (5~6 pages) 
     + Background (0.5 page): Motivation of problem (2 points)
     + Hypothesis (0.5 pages): Succinct statement of problem (3 points)
@@ -127,7 +134,11 @@ Union| Surface interpolation
     + Discussion and Conclusions (1.5 pages): Interpretation of results (6 points)
     + Future Work (0.5 pages): Next steps (2 points)
 ---
+<<<<<<< HEAD
 # Project Deliverables
+=======
+# Project Deliverables (2)
+>>>>>>> 5603d93081f13a82139bb883f43c1379a05b280f
 * Poster
     - A succinct and comprehensible version of project report - documenting all major components in project report.
     - Consider how to deliver information efficiently and effectively in a limited space.
@@ -135,7 +146,11 @@ Union| Surface interpolation
 * Report review 
     – Your review of other students’ reports
     - Your review will be evaluated too
+<<<<<<< HEAD
 * Project presentation 
+=======
+* Powerpoint presentation 
+>>>>>>> 5603d93081f13a82139bb883f43c1379a05b280f
     + <=15 mins in total (<=10 mins for presentation  and <=5 mins for Q&A and transition) 
 ---
 ## Project Timeline
@@ -146,6 +161,7 @@ Union| Surface interpolation
     - Submit word/pdf file using laulima
 * Poster submission: Week 15
     - Submit word/ppt/pdf file using laulima
+<<<<<<< HEAD
 * Project presentation: Weeks 16-17
     - Submit ppt/pdf file using laulima
 * Report review submission: Week 17
@@ -189,3 +205,9 @@ Union| Surface interpolation
 https://www.hawaii.edu/sitelic/esri/arcclasses.html
 2. After logging in your account, click **Support & Services** -> **My Learning**
 3. Click **Catalog** -> **Find Training**, and then search for the course **Building Models for GIS Analysis Using ArcGIS** in the Enter Keyword box.
+=======
+* Powerpoint presentations: Weeks 16-17
+    - Submit ppt/pdf file using laulima
+* Report review submission: Week 17
+
+>>>>>>> 5603d93081f13a82139bb883f43c1379a05b280f

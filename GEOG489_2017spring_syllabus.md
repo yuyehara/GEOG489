@@ -1,7 +1,7 @@
                              
 #Geography 489: Applied GIS  (Spring 2017) <br/>Syllabus and Schedule
 
-#####Instructor: Yi Qiang <br/>Email: yi_qiang@hotmail.com <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Monday 1:00-2:00 PM or by appointment
+#####Instructor: Yi Qiang <br/>Email: yi.qiang@hawaii.edu <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Monday 1:00-2:00 PM or by appointment
 
 #####Teaching Assistant: Katie Taladay<br/>Email: taladay@hawaii.edu<br/>Office: Saunders 422 <br/>Office hours: Wednesday 1:00-3:00 PM or by appointment <br/>
 #####Course website:<br/> http://laulima.hawaii.edu (for readings and assignments)<br/>https://github.com/qiang-yi/GEOG489 (for code and demos)
@@ -56,7 +56,7 @@ Please note you may work together on labs, but you each must do every part of ea
 
 All labs will be done in computer. We will set up an account for every student in the computer lab. The software to be used is **ArcGIS 10, its extensions (such as spatial analyst and 3D analyst), and some open-source packages (e.g. GDAL) for specific applications.**
 
-Students need to submit lab reports for each lab. The lab report should be in **Microsoft Word** file format and submitted to Laulima. Lab instructions will contain numbered questions to be answered and very specific deliverables in terms of maps, tables and graphs.
+Students need to submit lab reports for each lab. The lab report should be in **Microsoft Word** or **PDF** file format and submitted to Laulima. Lab instructions will contain numbered questions to be answered and very specific deliverables in terms of maps, tables and graphs.
 
 ###Course Project
 For the course project topics, you can select from a set of suggested projects, or expand on an existing lab assignment, or even develop your own project. 
