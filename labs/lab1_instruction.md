@@ -12,6 +12,8 @@ GIS models are used for many applications. If you are using a map then you are u
 
 The following video demonstrates a model used in a parcel owner notification application.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zw27zPrwMcw" frameborder="0" allowfullscreen></iframe>
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Zw27zPrwMcw" target="_blank"><img src="http://img.youtube.com/vi/Zw27zPrwMcw/0.jpg" alt="IMAGE ALT TEXT HERE" width="480" height="360" border="5" /></a>
 
 **Model**<sup>1</sup>: An abstraction of reality used to represent objects, processes, or events; in geoprocessing in ArcGIS, one process or a sequence of connected processes created in ModelBuilder.
