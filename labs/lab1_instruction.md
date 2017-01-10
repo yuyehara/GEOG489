@@ -1,11 +1,12 @@
-#Building Models for GIS Analysis Using ArcGIS by Esri
+#Building Models for GIS Analysis Using ArcGIS
 ##Introduction
 ArcGIS has many analysis and geoprocessing tools that can help you solve real-world problems with your data. In some cases, you are able to run individual tools to complete an analysis. But sometimes you may require a more comprehensive way to create, share, and document your analysis workflow.
 
 In these situations, you can use a built-in application called ModelBuilder to create a workflow that you can reuse, modify, save, and share with others.
 
 In this course, you will learn the basics of working with ModelBuilder and creating models. Models contain many different elements, many of which you will learn about. You will also learn how to work with models that others create and share with you. Sharing models is one of the major advantages of working with ModelBuilder and models in general. You will learn how to prepare a model for sharing by setting various model parameters.
-[Download data here](lab1_data/BldgModels10_0.exe)
+
+>Download data for this lab from [here](lab1_data/BldgModels10_0.exe), then click the **Download** botton.
 
 ##Introduction to models and ModelBuilder
 GIS models are used for many applications. If you are using a map then you are using a `model`<sup>1</sup>, because maps represent real-world features. In this course, you will focus more on `geoprocessing`<sup>2</sup> models that help you analyze the world and create new data. The first section will discuss model basics, which will get you started with using `ModelBuilder`<sup>3</sup>. You will learn what models are and the various elements and states of models that are available. You will also learn how to decipher models that colleagues or other users have created.
@@ -14,11 +15,11 @@ The following video demonstrates a model used in a parcel owner notification app
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=Zw27zPrwMcw" target="_blank"><img src="http://img.youtube.com/vi/Zw27zPrwMcw/0.jpg" alt="IMAGE ALT TEXT HERE" width="480" height="360" border="5" /></a>
 
-**Model**<sup>1</sup>: An abstraction of reality used to represent objects, processes, or events; in geoprocessing in ArcGIS, one process or a sequence of connected processes created in ModelBuilder.
+>**Model**<sup>1</sup>: An abstraction of reality used to represent objects, processes, or events; in geoprocessing in ArcGIS, one process or a sequence of connected processes created in ModelBuilder.
 
-**Geoprocessing**<sup>2</sup>: A GIS operation used to manipulate GIS data. A typical geoprocessing operation takes an input dataset, performs an operation on that dataset, and returns the result of the operation as an output dataset. Geoprocessing allows for definition, management, and analysis of information used to form decisions.
+>**Geoprocessing**<sup>2</sup>: A GIS operation used to manipulate GIS data. A typical geoprocessing operation takes an input dataset, performs an operation on that dataset, and returns the result of the operation as an output dataset. Geoprocessing allows for definition, management, and analysis of information used to form decisions.
 
-**Geoprocessing**<sup>3</sup>: The interface used to build and edit geoprocessing models in ArcGIS.
+>**Geoprocessing**<sup>3</sup>: The interface used to build and edit geoprocessing models in ArcGIS.
 
 ###What is a model?
 The term model, as used in GIS, can have several meanings. Fundamentally, a model is an abstraction of reality used to represent an object, a process, or an event. In the context of geoprocessing, a model is one process or a sequence of connected processes created in ModelBuilder. In this course, you will concentrate on geoprocessing models and how they can facilitate your analysis operations and workflows.
@@ -73,13 +74,13 @@ The following graphic illustrates the various types of elements you can add to a
 
 [More about model elements](lab1_data/misc/ModelElements.md).
 
-**Variables**<sup>4</sup>:Values in a model that might change, such as input data, buffer distance, or SQL expressions.
+>**Variables**<sup>4</sup>:Values in a model that might change, such as input data, buffer distance, or SQL expressions.
 
 ###Model states
 A single model process represents a tool, its input data, and its derived data. Although you can run an entire model at one time, you can also run individual processes of a model as needed. For example, you may need to run a tool before you can add the derived data to the next tool. It's important to understand model states: by looking at a model, you can tell what has or hasn't been run—and what might not be ready to run because of an error.
 Models represent a continuous geoprocessing workflow, so processes that occur later in the model depend on processes that occur in the beginning. Why does this occur? The processes at the beginning create or modify data that is used in future processes.
 
-**Knowing about model states can help you make sure that your models are ready to run and will run as expected.**
+Knowing about model states can help you make sure that your models are ready to run and will run as expected.
 ![alt text](lab1_data/misc/NotReady1.png "Logo Title Text 1")
 
 **Figure 8**: **_Not ready to run_**. When model elements are white, they are NOT ready to run. The reasons for elements not being ready to run are varied. Maybe a tool parameter isn't properly set, or maybe the input data is incomplete, corrupt, or has some other problem.
@@ -105,11 +106,13 @@ Environment settings have a hierarchical structure and can be overridden at some
 |**Model level	**		|Set in model properties; pertain to tools within that model	|Override tool-level and application-level settings|
 |**Model process level		**		|Set in each model process		|Override all other levels|
 
-**Environment setting**<sup>5</sup>: Additional parameters that affect a tool's result. Environment settings are set separately from the tool parameters before running the tool and are used during the tool's execution.
+>**Environment setting**<sup>5</sup>: Additional parameters that affect a tool's result. Environment settings are set separately from the tool parameters before running the tool and are used during the tool's execution.
 
+<br>
+***
 ###Exercise 1: Explore an existing model
-> Please complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
-
+Please complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
+***
 ##Creating and using models
 
 Earlier in the course, you learned some basic information about models. You also learned how to decipher a model that has already been built. In this section, you will learn how to create new models from scratch and how to set up tool and model parameters. Creating your own models expands your geoprocessing and analysis options—options that often don't exist when you run single tools in succession.
@@ -129,7 +132,7 @@ When you are performing some type of GIS analysis or completing a data managemen
 |What is the goal of the model you want to build?|
 |What data do you need to use in the model?|
 |What is the most effective workflow to follow to achieve your goals?|
-
+<br>
 If you're planning to build a model, you can follow this set of guidelines to help you determine goals, data, and tools before you start building.
 
 |ModelBuilder planning guidelines|
@@ -139,9 +142,11 @@ If you're planning to build a model, you can follow this set of guidelines to he
 |Choose tools that will enable you to achieve your goals. This requires thoroughly understanding your goals and the tools you'll use.|
 |Build and run a model. By this time, you have already determined everything you need to complete your model.|
 |Explore and refine the results of your model. You might view, analyze, and symbolize your results to determine whether they are satisfactory. You can run the model again with different tool inputs, if needed.|
-
+<br>
+***
 ###Exercise 2: Prepare for your analysis
-> Please complete the exercise following the instruction [here](lab1_data/misc/Exercise2.pdf).
+Please complete the exercise following the instruction [here](lab1_data/misc/Exercise2.pdf).
+***
 
 ###Exploring tool and model parameters
 
@@ -153,17 +158,18 @@ The following video will demonstrate tool and model parameters.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=q_6gcDWjSwk" target="_blank"><img src="http://img.youtube.com/vi/q_6gcDWjSwk/0.jpg" alt="IMAGE ALT TEXT HERE" width="480" height="360" border="5" /></a>
 
-**Model parameter**<sup>6</sup>: In ArcGIS, a type of parameter exposed in a geoprocessing model that appears in a model's dialog box and allows for input.
+>**Model parameter**<sup>6</sup>: In ArcGIS, a type of parameter exposed in a geoprocessing model that appears in a model's dialog box and allows for input.
 
 ###Working with intermediate data
 
 When a model is executed, new data is usually created. Even a model with only two processes will potentially create two new datasets. In most cases, the only dataset you need to keep is the final output of the model after all its processes have been run to create that final output.
 
-But after a model runs, other datasets are created from each model process and then fed into the next tool to create more data, ultimately leading to the creation of the final dataset. These datasets, which will not be maintained after the processes run, are called intermediate data.
+But after a model runs, other datasets are created from each model process and then fed into the next tool to create more data, ultimately leading to the creation of the final dataset. These datasets, which will not be maintained after the processes run, are called `intermediate data`<sup>7<sup>.
 
 Managing intermediate data usually needs to be done manually. ModelBuilder automatically flags all derived datasets within a model as intermediate data (except the final output). You decide to either keep or delete intermediate data after you run your model. Most likely, you will delete intermediate data because these datasets were only created as steps toward creating the final output (think of intermediate data as being used only as intermediate steps). Intermediate data takes up space in your geodatabase. If you want to keep intermediate data as a record of your model's history, you can use the scratch workspace environment setting to store it, and still store your final result in the current workspace.
 
 When you run a model from ModelBuilder, intermediate data remains: you need to delete it manually from the Model menu option. If you run the model from its tool dialog box, intermediate data is automatically deleted.
+>**intermediate data**<sup>7</sup>: Any data in a process that did not exist before the process existed and that will not be maintained after the process executes.
 
 ###Validating and running your model
 
@@ -176,7 +182,7 @@ Suppose a data variable represents a feature class (see the example shown in the
 
 If all elements and parameters are properly validated, the elements will be set as ready to run.
 
-**Tip**: If you are sent a model by a colleague, for example, and the model's derived data and tools have shadows (indicating that they have already been run), you can validate the model to remove the shadows and rerun it.
+>**Tip**: If you are sent a model by a colleague, for example, and the model's derived data and tools have shadows (indicating that they have already been run), you can validate the model to remove the shadows and rerun it.
 
 ###Documenting your model
 
@@ -193,10 +199,13 @@ You can add labels to the model itself that show the workflow and describe a par
 ![alt text](lab1_data/misc/Labelforconnector.png "Logo Title Text 1")
 **Figure 12**: An example of a connector label.
 
-
+<br>
+***
 ###Exercise 3: Exercise: Build a site selection model
->Please complete the exercise following the instruction [here](lab1_data/misc/Exercise3.pdf).
+**Please complete the exercise following the instruction [here](lab1_data/misc/Exercise3.pdf).**
+***
 
 
 ###Exercise 4: Run the model and work with parameters
->Please complete the exercise following the instruction [here](lab1_data/misc/Exercise4.pdf).
+**Please complete the exercise following the instruction [here](lab1_data/misc/Exercise4.pdf).**
+***
