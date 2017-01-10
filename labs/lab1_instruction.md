@@ -66,6 +66,7 @@ In ModelBuilder, you add data and elements to your model and connect them in a p
 The following graphic illustrates the various types of elements you can add to any model.
 
 ![alt text](lab1_data/misc/Elements.png "Logo Title Text 1")
+
 **Figure 7**: Variables, tools, and connectors are the three basic model elements. Variables are either data or value variables. A data variable is input or output (derived). An example of a value variable is buffer distance. Tools can be common system tools, script tools, model tools, or custom tools. Connectors can be a simple data connector, an environment setting, a precondition, or feedback.
 
 [More about model elements](lab1_data/misc/ModelElements.md).
