@@ -81,12 +81,15 @@ A single model process represents a tool, its input data, and its derived data. 
 Models represent a continuous geoprocessing workflow, so processes that occur later in the model depend on processes that occur in the beginning. Why does this occur? The processes at the beginning create or modify data that is used in future processes.
 
 Knowing about model states can help you make sure that your models are ready to run and will run as expected.
+
 ![alt text](lab1_data/misc/NotReady1.png "Logo Title Text 1")
 
 **Figure 8**: **_Not ready to run_**. When model elements are white, they are NOT ready to run. The reasons for elements not being ready to run are varied. Maybe a tool parameter isn't properly set, or maybe the input data is incomplete, corrupt, or has some other problem.
+
 ![alt text](lab1_data/misc/Ready.png "Logo Title Text 1")
 
 **Figure 9**: **_Ready to run_**. Model elements that are displayed in color are ready to run. The parameters for these elements have all been properly set.
+
 ![alt text](lab1_data/misc/Has_been_run.png "Logo Title Text 1")
 
 **Figure 9**: **_Already run_**. The shadow, or shading, behind a model element indicates that the element has already been run. Only tool and derived data elements will display a shadow. Input data elements won't display a shadow because these elements are used only to produce derived data.
@@ -102,9 +105,9 @@ Environment settings have a hierarchical structure and can be overridden at some
 |Environment Setting Type	|Description|Override Characteristics|
 |---|---|---|
 |**Application level**		|Set in Geoprocessing > Environments menu; applied to all tools	|Become the default settings after being set; will be applied to any tool executed|
-|**Tool level**		|Set in each individual tool dialog box; pertain to that tool only		|Applied to a single run of a tool; override application-level settings|
-|**Model level	**		|Set in model properties; pertain to tools within that model	|Override tool-level and application-level settings|
-|**Model process level		**		|Set in each model process		|Override all other levels|
+|**Tool level**|Set in each individual tool dialog box; pertain to that tool only		|Applied to a single run of a tool; override application-level settings|
+|**Model level**|Set in model properties; pertain to tools within that model	|Override tool-level and application-level settings|
+|**Model process level**		|Set in each model process		|Override all other levels|
 
 >**Environment setting**<sup>5</sup>: Additional parameters that affect a tool's result. Environment settings are set separately from the tool parameters before running the tool and are used during the tool's execution.
 
