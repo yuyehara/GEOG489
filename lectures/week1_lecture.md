@@ -179,7 +179,10 @@ Union| Surface interpolation
 * For ArcGIS 10.X, you can change the path setting by click File->Map Document. Check Store relative pathnames to data sources.
 ---
 ## Lab 1: Geoprocessing with Model Builder and Python Scripts
-1. Building Models for GIS Analysis Using ArcGIS
+Please complete the lab exercises following the instruction and finish the lab report.
+* Lab instruction: https://git.io/vMR3W
+* Lab Report: https://git.io/vMR5c
 
-* Access to lab instruction: https://git.io/vMR3W
+The report should be submitted to Laulima by Jan. 27.
+
 ---

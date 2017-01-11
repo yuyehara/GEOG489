@@ -6,8 +6,6 @@ In these situations, you can use a built-in application called ModelBuilder to c
 
 In this course, you will learn the basics of working with ModelBuilder and creating models. Models contain many different elements, many of which you will learn about. You will also learn how to work with models that others create and share with you. Sharing models is one of the major advantages of working with ModelBuilder and models in general. You will learn how to prepare a model for sharing by setting various model parameters.
 
->Download data for this lab from [here](lab1_data/BldgModels10_0.exe), then click the **Download** botton. Install the data in default setting (C:/Student)
-
 ##Introduction to models and ModelBuilder
 GIS models are used for many applications. If you are using a map then you are using a `model`<sup>1</sup>, because maps represent real-world features. In this course, you will focus more on `geoprocessing`<sup>2</sup> models that help you analyze the world and create new data. The first section will discuss model basics, which will get you started with using `ModelBuilder`<sup>3</sup>. You will learn what models are and the various elements and states of models that are available. You will also learn how to decipher models that colleagues or other users have created.
 
@@ -114,7 +112,9 @@ Environment settings have a hierarchical structure and can be overridden at some
 <br>
 ***
 ###Exercise 1: Explore an existing model
-Please complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
+First, download data for this lab from [here](lab1_data/BldgModels10_0.exe), then click the **Download** botton.
+
+Then complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
 >**Tip**:You may want to download the exercise pdf in order to copy the text in it. The same as the following exercises.
 
 ***
