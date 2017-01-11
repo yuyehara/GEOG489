@@ -115,7 +115,7 @@ Environment settings have a hierarchical structure and can be overridden at some
 First, download data for this lab from [here](lab1_data/BldgModels10_0.exe), then click the **Download** botton.
 
 Then complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
->**Tip**:You may want to download the exercise pdf in order to copy the text in it. The same as the following exercises.
+>**Tip**:You may want to download the exercise pdf in order to copy the text in it, as well as the following exercises.
 
 ***
 ##Creating and using models
@@ -183,6 +183,7 @@ Once you add model elements to ModelBuilder and connect them to tools to form pr
 Suppose a data variable represents a feature class (see the example shown in the following graphic). The data variable contains the path to the data on disk, a list of information about all the fields, and other information used only by geoprocessing tools. Validation ensures that the tool is ready to run.
 
 ![alt text](lab1_data/misc/ValidationCloud.png "Logo Title Text 1")
+
 **Figure 9**: The shadow, or shading, behind a model element indicates that the element has already been run. Only tool and derived data elements will display a shadow. Input data elements won't display a shadow because these elements are used only to produce derived data.
 
 If all elements and parameters are properly validated, the elements will be set as ready to run.
@@ -196,12 +197,15 @@ Think of documenting a model as creating metadata (data about the model). In Arc
 You can add labels to the model itself that show the workflow and describe a particular tool, data element, or process. Labels can be placed freely in the model or can be added for a particular element (tool, variable, connector) and tied to it.
 
 ![alt text](lab1_data/misc/ModelItemDesc.png "Logo Title Text 1")
+
 **Figure 10**: An example of a typical item description for a model.
 
 ![alt text](lab1_data/misc/Labelfortool.png "Logo Title Text 1")
+
 **Figure 11**: An example of a free-floating label on top in bold text and a tool label.
 
 ![alt text](lab1_data/misc/Labelforconnector.png "Logo Title Text 1")
+
 **Figure 12**: An example of a connector label.
 
 <br>

@@ -1,35 +1,53 @@
+
 # Applied GIS (GEOG 489)
 **Week 1: Course Introduction**
 Slides of this class: https://git.io/vMR3X
-Course site: https://github.com/qiang-yi/GEOG489/
+
 <br>
 Instructor: Yi Qiang
+
 Email: yi.qiang@hawaii.edu
 
 ---
+# What is Applied GIS?
 
-# Approaches to Lectures & Demos 
 
-- A bit of theory on certain new topics 
-- Examples and case-studies from the readings 
+---
+# Course Topics
+* Geoprocessing with ArcGIS (2 Weeks)
+* Suitability Modeling (2 Weeks)
+* Land cover change modeling (2 Weeks)
+* Terrain and watershed analysis (2 Weeks)
+* Spatial Interpolation (2 weeks)
+* Advanced spatial analysis (2 weeks, TBD)
+---
+
+# Approaches to Lectures & Demos
+- A bit of theory on certain new topics
+- Examples and case-studies from the readings
 - Review / demonstration of particular GIS analysis or software skills on as-needed basis 
 - Compared to the other GIS courses, there will be much more time to work on lab assignments during scheduled class time 
 ---
+# Course Material
+* Slides, lab instructions and assignments can be accessed from 
+	https://github.com/qiang-yi/GEOG489
+* Lab assignments, project reports should be submitted to the course site in Laulima.
+---
 
 # Readings
-
-- Several required readings for each topic - most are journal articles 
+- Several required readings for each topic - most are journal articles
+- Text book is not necessary - Some chapters are recommended to read.
 - Most of the readings are closely related to the lab assignments - we can't cover all the advanced techniques from the literature, but doing the readings will help with the lab assignments, in particular answering the questions 
 - Some readings use very advanced statistical methods or other non-GIS techniques - don't worry, you don't have to understand the nuts and bolts of each method - focus on the GIS elements
 
 ---
 
-# Expected Knowledge: ArcGIS 
+# Expected Knowledge: ArcGIS
 
 * Knowledge of the fundamentals of ArcGIS is required 
-    - support will be provided by the instructor on a as needed basis. 
-    - You will be given course codes for online ESRI Virtual Campus courses. 
-* A basic knowledge of Spatial Analyst is required -we'll do more advanced stuff throughout this course. 
+    - Support will be provided by the instructor on a as needed basis. 
+    - Learn to find solutions to your problems from the Internet, e.g. ESRI training, Stack Overflow and Google. 
+* A basic knowledge of Spatial Analyst is required -we'll do more advanced stuff throughout this course.
 
 ---
 
@@ -62,17 +80,17 @@ Union| Surface interpolation
     + Limited step-by-step software instructions
     + Questions ranging from fairly basic to very advanced
     + Some questions that are open-ended
-    + Some parts that are optional - be selective
+    + Some parts that are optional
 * Lab assignments broken up in many small parts - if you get stuck somewhere, you can skip ahead to another part without having to wait for instructor feedback
 ---
 
 # Suggestions for Lab Assignments
 * Don't leave the assignments to the last minute.
-    + You can accurately estimate the time to finish it.
+    + You can't precisely estimate the time to finish it.
     + Doing assignment along with classes can help you better understand the classes and yield to higher quality of assignment
 * Try to get work done during the scheduled class times, and ask questions. 
 * Instructions are posted ahead of time and are largely self explanatory, so you can start them ahead of the lectures. 
-* If you get stuck with something, contact the instructor or TA - don’t struggle too long on your own (!)
+* If you get stuck with something, contact the instructor or TA - don’t struggle too long on your own.
     + During class 
     + E-mail 
     + Office hours or by appointment
@@ -122,21 +140,18 @@ Union| Surface interpolation
 ---
 # Project Deliverables
 * Project Report (5~6 pages) 
-    + Background (0.5 page): Motivation of problem (2 points)
-    + Hypothesis (0.5 pages): Succinct statement of problem (3 points)
-    + Methodology (0.5 pages): Appropriate use of GIS (3 points)
-    + Results (1.5 pages): Do results address hypothesis (4 points)
-    + Discussion and Conclusions (1.5 pages): Interpretation of results (6 points)
-    + Future Work (0.5 pages): Next steps (2 points)
+    + Background (0.5 page): Motivation of problem
+    + Hypothesis (0.5 pages): Succinct statement of problem
+    + Methodology (1 pages): Appropriate use of GIS
+    + Results (1 pages): Do results address hypothesis
+    + Discussion and Conclusions (1 - 2 pages): Interpretation of results
+    + Future Work (0.5 pages): Next steps
 ---
 # Project Deliverables
 * Poster
     - A succinct and comprehensible version of project report - documenting all major components in project report.
     - Consider how to deliver information efficiently and effectively in a limited space.
     - Produce in a print-ready format in 36" * 48" size (ppt, pdf or word)
-* Report review 
-    – Your review of other students’ reports
-    - Your review will be evaluated too
 * Project presentation 
     + <=15 mins in total (<=10 mins for presentation  and <=5 mins for Q&A and transition) 
 ---
@@ -150,15 +165,13 @@ Union| Surface interpolation
     - Submit word/ppt/pdf file using laulima
 * Project presentation: Weeks 16-17
     - Submit ppt/pdf file using laulima
-* Report review submission: Week 17
 ---
 ## Project Grading
 |Items|% grade|
 |------|------|
 |Project proposal|5%|
 |Project report| 40%  |
-|Poster| 15%  |
-|Report review| 10%  |
+|Poster| 25%  |
 |Project presentation| 30%  |
 ---
 
@@ -178,11 +191,30 @@ Union| Surface interpolation
 * If you move data between computers, you will have to use relative path names for your ArcMap documents 
 * For ArcGIS 10.X, you can change the path setting by click File->Map Document. Check Store relative pathnames to data sources.
 ---
-## Lab 1: Geoprocessing with Model Builder and Python Scripts
+## Geoprocessing Model and ModelBuilder in ArcGIS
+* Geoprocessing model: 
+	* a workflow consists of one more multiple geoprocessing tools
+	* The geoprocessing tools are by their interfaces (input and output variables)
+	* represent a meaningful spatial analysis
+![alt text](../labs/lab1_data/misc/Already_Run.png "Logo Title Text 1")
+<center>A geoprocessing model</center>
+
+---
+
+# ModelBuilder
+* Visual programming language/platform that enables you to create a program without writing code.
+* You create a program by adding data and tools and connecting them into a workflow.
+* Models created by ModelBuilder is explicit, automated, re-usable and sharable.
+
+---
+## Lab 1 (part 1): Building Models for GIS Analysis Using ArcGIS
+
 Please complete the lab exercises following the instruction and finish the lab report.
 * Lab instruction: https://git.io/vMR3W
 * Lab Report: https://git.io/vMR5c
 
-The report should be submitted to Laulima by Jan. 27.
+The report should be submitted to Laulima by Fri. Jan. 27.
+
 
 ---
+

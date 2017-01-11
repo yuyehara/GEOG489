@@ -39,7 +39,7 @@ Optional reference books (use them if you want to learn more than covered in the
 |---------|---------|
 |6 Labs	|60|
 |1 Course project	|30|
-|Participation	|10 (5 in-class, 5 forum)| 
+|Participation	|10 | 
 |Total	|100|
 
 ####Scale
@@ -62,11 +62,10 @@ Students need to submit lab reports for each lab. The lab report should be in **
 For the course project topics, you can select from a set of suggested projects, or expand on an existing lab assignment, or even develop your own project. 
 
 Project deliverable and timeline are:
-*	1st project proposal: 1 page or ~500 words. Due week 7
-*	2nd project proposal: ~1500 words. Due week 9
-*	Project progress meeting: week 10
-*	Poster: week 15
-*	Powerpoint presentation: weeks 16-17.
+*	Project proposal: 1 page or ~500 words. Due week 7
+*	Project Report: Due Week 15
+* 	Poster submission: Week 15
+* 	Project presentation: Weeks 16-17
 
 The details of project topics, requirements, and deliverables are described in the lecture slides.
 
@@ -83,8 +82,8 @@ If you have any challenges to learning and need support of any kind, you are inv
 
 |day |   Date    |  Content|
 |---|---|---|
-|Wk 1: Fri	|Jan 13	|Course Intro; Lab 1. Geoprocessing with ArcGIS Desktop: online course|
-|Wk 2: Fri	|20	|Lab 1 Continues|
+|Wk 1: Fri	|Jan 13	|Course Intro; Geoprocessing with ArcGIS Desktop; Lab 1|
+|Wk 2: Fri	|20	|Python Scripting for Geoprocessing Workflows; Lab 1|
 |Wk 3: Fri	|27	|Suitability modeling – General suitability modeling; Lab 2|
 |Wk 4: Fri	|Feb 3	|Suitability modeling – Predictive habitat suitability modeling; Lab 2|
 |Wk 5: Fri	|10	|Land cover change modeling – Change and time-series analysis; Lab 3|
@@ -93,9 +92,9 @@ If you have any challenges to learning and need support of any kind, you are inv
 |Wk 8: Fri	|Mar 3	|Project proposal/progress meeting |
 |Wk 9: Fri	|10	|Terrain and watershed analysis – Stream and watershed delineation; Lab 4|
 |Wk 10: Fri	|17	|Spring recess|
-|Wk 11: Fri	|24	|Spatial Interpolation –  Principles; Lab 4| 
-|Wk 12: Fri	|31	|Spatial Interpolation – Applications; Lab 4|
-|Wk 13: Fri	|Apr 7	|Advanced spatial modeling –Lab 5|
+|Wk 11: Fri	|24	|Spatial Interpolation –  Principles; Lab 5| 
+|Wk 12: Fri	|31	|Spatial Interpolation – Applications; Lab 5|
+|Wk 13: Fri	|Apr 7	|Advanced spatial modeling –Lab 6|
 |Wk 14: Fri	|14	|Holiday: Good Friday |
 |Wk 15: Fri	|21	|Advanced spatial modeling –Lab 6|
 |Wk 16: Fri	|28	|Project Presentation (1)|
