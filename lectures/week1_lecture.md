@@ -44,13 +44,12 @@ Email: yi.qiang@hawaii.edu
 - Text book is not necessary - but some chapters are recommended to read.
 - Most of the readings are closely related to the lab assignments - we can't cover all the advanced techniques from the literature, but doing the readings will help with the lab assignments, in particular answering the questions 
 - Some readings use very advanced statistical methods or other non-GIS techniques - don't worry, you don't have to understand the nuts and bolts of each method - focus on the GIS elements
-
 ---
 
 # Expected Knowledge: ArcGIS
 * Basic knowledge of ArcGIS is required 
     - Support will be provided by the instructor on a as needed basis. 
-    - Learn to find solutions to your problems from the Internet, e.g. ESRI training, Stack Overflow and Google. 
+    - Learn to find solutions to your problems from the Internet, e.g. ESRI training/documentation, Stack Overflow and Google. 
 * A basic knowledge of Spatial Analyst is required -we'll do more advanced stuff throughout this course.
 
 ---
