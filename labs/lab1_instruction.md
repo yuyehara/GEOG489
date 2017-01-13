@@ -112,10 +112,13 @@ Environment settings have a hierarchical structure and can be overridden at some
 <br>
 ***
 ###Exercise 1: Explore an existing model
-First, download data for this lab from [here](lab1_data/BldgModels10_0.exe), then click the **Download** botton.
+1. Download data for this lab from [here](lab1_data/BldgModels10_0.exe), then click the **Download** botton.
+2. Double click the dataset and install the data into U:\Student.
+3. There will be an error when running the model in Step 7. To solve it, change the paths of variable ***SchoolBuffer***, ***gMainBuffer***, ***Intersect (2)***, and ***GasLeakAreas*** from 'C:\ ...' to 'U:\ ...'
 
-Then complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
->**Tip**:You may want to download the exercise pdf in order to copy the text in it, as well as the following exercises.
+4. Then complete the exercise following the instruction [here](lab1_data/misc/Exercise1.pdf).
+
+>**Tip**: You may want to download the exercise pdf in order to copy the text in it, as well as the following exercises.
 
 ***
 ##Creating and using models
