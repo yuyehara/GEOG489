@@ -150,10 +150,17 @@ Union| Surface interpolation
 * Poster
     - A succinct and comprehensible version of project report - documenting all major components in project report.
     - Consider how to deliver information efficiently and effectively in a limited space.
-    - Produce in a print-ready format in 36" * 48" size - you don't need to print
+    - Size proportional to 4' * 6' (landscape layout)
+    - All contents visible for people standing 6' away 
 * Project presentation 
     + <=20 mins in total (<=15 mins for presentation  and <=5 mins for Q&A and transition) 
 ---
+
+<img src="../labs/lab1_data/misc/poster2.jpg" width="700">
+
+---
+
+
 ## Project Timeline
 * Project proposal due: Week 7 
     - Submit Word/pdf file to laulima
