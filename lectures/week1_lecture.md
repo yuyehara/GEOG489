@@ -17,7 +17,7 @@ Email: yi.qiang@hawaii.edu
 
 ---
 # Course Topics (tentative)
-* Geoprocessing with ArcGIS (2 Weeks)
+* Geoprocessing using ArcGIS (2 Weeks)
 * Suitability Modeling (2 Weeks)
 * Land cover change modeling (2 Weeks)
 * Terrain and watershed analysis (2 Weeks)
@@ -25,9 +25,9 @@ Email: yi.qiang@hawaii.edu
 * Advanced spatial analysis (2 weeks, TBD)
 ---
 
-# Approaches to Lectures & Demos
+# Approaches to Lectures & Labs
 - A bit of theory on certain new topics
-- Applications and case-studies from the readings
+- More focus on applications and case-studies
 - Review / demonstration of particular GIS analysis or software skills on as-needed basis 
 - Compared to the other GIS courses, there will be much more time to work on lab assignments during scheduled class time
 - Develop research ability through proposal/report writing and project presentation.
@@ -150,13 +150,13 @@ Union| Surface interpolation
 * Poster
     - A succinct and comprehensible version of project report - documenting all major components in project report.
     - Consider how to deliver information efficiently and effectively in a limited space.
-    - Size proportional to 4' * 6' (landscape layout)
+    - Size proportional to 4' * 6' (landscape layout), in PDF
     - All contents visible for people standing 6' away 
 * Project presentation 
     + <=20 mins in total (<=15 mins for presentation  and <=5 mins for Q&A and transition) 
 ---
 
-<img src="../labs/lab1_data/misc/poster2.jpg" width="700">
+<img src="../labs/lab1_data/misc/poster1.jpg">
 
 ---
 
@@ -172,7 +172,7 @@ Union| Surface interpolation
 * Project presentation: Weeks 16-17
     - Submit ppt/pdf file using laulima
 ---
-## Project Grading
+## Course Grading
 |Items|% grade|
 |------|------|
 |Project proposal|10%|
