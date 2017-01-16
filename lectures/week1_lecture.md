@@ -171,13 +171,17 @@ Union| Surface interpolation
 * Project presentation: Weeks 16-17
     - Submit ppt/pdf file using laulima
 ---
-## Course Grading
+## Project Grading
 |Items|% grade|
 |------|------|
 |Project proposal|10%|
 |Project report| 40%  |
 |Poster| 20%  |
 |Project presentation| 30%  |
+<br>
+
+**All these project items accounts for 30/100 of the overall course grading.**
+
 ---
 
 ## Geoprocessing Model and ModelBuilder in ArcGIS
