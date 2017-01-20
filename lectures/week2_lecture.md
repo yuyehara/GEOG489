@@ -3,7 +3,7 @@
 
 Week 2: Python Scripting for Geoprocessing in ArcGIS
 
-Slides of this class: 
+Slides of this class: https://git.io/vMSan
 
 <br>
 Instructor: Yi Qiang
@@ -366,8 +366,8 @@ print (arcpy.env.overwriteOutput)
 ```
 
 #### The above scripts are equal to the following manual settings in ArcGIS:
-
-<img  align = 'left' src="../labs/lab2_data/misc/workspace.png "height="180">
+<br>
+<img  align = 'left' src="../labs/lab2_data/misc/workspace.png">
 
 #### Describe the properties of your data
 
@@ -468,13 +468,6 @@ arcpy.Buffer_analysis(inFeatures, outBuffers, buffField)
 arcpy.Usage("Buffer_Analysis")
 ```
 
-
-
-
-    'Buffer_analysis(in_features, out_feature_class, buffer_distance_or_field, {FULL | LEFT | RIGHT | OUTSIDE_ONLY}, {ROUND | FLAT}, {NONE | ALL | LIST}, {dissolve_field;dissolve_field...}, {PLANAR | GEODESIC})'
-
-
-
 ## Step 5: Define an execution order of your tools
 #### For example, you define a workflow to find all invasive plants within 2000 meters from streams and 5000 meters from the wilderness
 #### 1. Create 3000 buffer for streams
@@ -517,7 +510,6 @@ arcpy.MakeFeatureLayer_management("invasive_plants", "plant_lyr")
 
 
 ```python
-arcpy.MakeFeatureLayer_management("invasive_plants", "plant_lyr")
 arcpy.SelectLayerByLocation_management ("plant_lyr", "WITHIN", "bufferIntersect")
 # Get total number of invasive plants within the buffer intersection
 matchcount = int(arcpy.GetCount_management('plant_lyr')[0])
@@ -529,7 +521,8 @@ print('The number of selected invasive plants are ' + str(matchcount)) # print i
 <img <img  align = 'left' src="../labs/lab2_data/misc/workflow.png "height="180">
 
 # Lab Exercises
-1. Please download and install **[data](../labs/lab1_data/PythonGP10_0.exe)** and **[PythonWin](https://sourceforge.net/projects/pywin32/files/pywin32/Build%20219/pywin32-219.win32-py2.7.exe/download)** in your 'U' drive. (**Note**: Data only need to be installed once for all exercises) <br>
+1. Please download and install **[data](../labs/lab1_data/PythonGP10_0.exe)** into your 'U' drive. (**Note**: Data only need to be installed once for all exercises). <br>
+ Pythonwin is already installed - open it from your start menu or desktop <br>
 2. Complete the 3 exercises (**Note**: ignore questions in green boxes in the exercises, answer questions in the assignment):<br>
 **[Exercise 1](../labs/lab2_data/misc/exercise1.pdf)** <br>
 **[Exercise 2](../labs/lab2_data/misc/exercise2.pdf)** <br>
