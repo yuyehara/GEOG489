@@ -33,6 +33,7 @@ Email: yi.qiang@hawaii.edu
 # Python Console in ArcGIS
 
 <img  src="../labs/lab2_data/misc/panel.png" height="80">
+
 <img  src="../labs/lab2_data/misc/console.png "height="250">
 
 * Easy to use (no need to open another editor)
@@ -55,7 +56,7 @@ Email: yi.qiang@hawaii.edu
 
 # The Interface of IDE
 
-<img align = 'left' src="../labs/lab2_data/misc/interface.png" width="800">
+<img align = 'left' src="../labs/lab2_data/misc/Interface.png" width="800">
 
 
 # 1 Basics of Python
@@ -365,6 +366,7 @@ print (arcpy.env.overwriteOutput)
 ```
 
 #### The above scripts are equal to the following manual settings in ArcGIS:
+
 <img  align = 'left' src="../labs/lab2_data/misc/workspace.png "height="180">
 
 #### Describe the properties of your data
