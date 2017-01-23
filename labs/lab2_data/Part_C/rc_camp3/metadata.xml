@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
-<metadata xml:lang="en"><Esri><MetaID>{94235552-55F5-418F-AB68-631F35B38A9D}</MetaID><CreaDate>20080905</CreaDate><CreaTime>18033200</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process Name="Reclassify (8)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20080905" Time="180332">Reclassify D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\rc_camp2 VALUE "1 1;1 2 2;2 3 3;3 4 4;4 5 5;5 7500 3" D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\rc_camp3 DATA</Process></lineage></DataProperties></Esri></metadata>

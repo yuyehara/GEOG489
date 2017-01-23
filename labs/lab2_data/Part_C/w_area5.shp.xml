@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
-<metadata xml:lang="en"><Esri><MetaID>{073FDEB5-9F3A-4525-9E73-C764BA947CBB}</MetaID><CreaDate>20080905</CreaDate><CreaTime>18452300</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\RasterToPolygon" Date="20080905" Time="184523">RasterToPolygon w_area4 D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\w_area5.shp SIMPLIFY VALUE</Process></lineage></DataProperties></Esri></metadata>

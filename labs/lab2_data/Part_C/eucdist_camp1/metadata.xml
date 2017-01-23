@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
-<metadata xml:lang="en"><Esri><MetaID>{F39E0B93-EF74-42FD-B04C-DF4769422259}</MetaID><CreaDate>20080905</CreaDate><CreaTime>10450700</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\EucDistance" Date="20080905" Time="104507">EucDistance campsites D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\EucDist_camp1 # 100 #</Process></lineage></DataProperties></Esri></metadata>

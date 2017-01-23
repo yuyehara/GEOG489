@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
-<metadata xml:lang="en"><Esri><MetaID>{6F0CC890-FDFE-4603-8D7E-B676A9591223}</MetaID><CreaDate>20080905</CreaDate><CreaTime>18344000</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process Name="Majority Filter" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\MajorityFilter" Date="20080905" Time="183440">MajorityFilter D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\w_area3 D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\w_area4 EIGHT MAJORITY</Process></lineage></DataProperties></Esri></metadata>

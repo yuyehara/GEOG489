@@ -1,3 +1,0 @@
-<?xml version="1.0"?>
-<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
-<metadata xml:lang="en"><Esri><MetaID>{7F27B42C-2878-474D-A6C9-31043C3B5FE2}</MetaID><CreaDate>20080905</CreaDate><CreaTime>11030500</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20080905" Time="110305">Reclassify EucDist_road1 Value "0 2500 0;2501 41816.86328125 1" D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\RC_ED_road1 DATA</Process></lineage></DataProperties></Esri></metadata>
