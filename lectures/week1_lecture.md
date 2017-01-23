@@ -149,7 +149,7 @@ Union| Surface interpolation
 * Poster
     - A succinct and comprehensible version of project report - documenting all major components in project report.
     - Consider how to deliver information efficiently and effectively in a limited space.
-    - Size proportional to 4' * 6' (landscape layout), in PDF
+    - Size: 40" * 60" (landscape layout)
     - All contents visible for people standing 6' away 
 * Project presentation 
     + <=20 mins in total (<=15 mins for presentation  and <=5 mins for Q&A and transition) 
