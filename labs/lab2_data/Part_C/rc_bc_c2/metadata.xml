@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en"><Esri><MetaID>{3A6C895B-C0F5-40B2-B511-6F0D1A889788}</MetaID><CreaDate>20080905</CreaDate><CreaTime>17474400</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process Name="Reclassify (4)" ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20080905" Time="174744">Reclassify EucDist_bc_c1 Value "0 1000 1;1001 4000 2;4001 7000 3;7001 10001 4;10001 25524.890625 5" D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\rc_bc_c2 DATA</Process></lineage></DataProperties></Esri></metadata>

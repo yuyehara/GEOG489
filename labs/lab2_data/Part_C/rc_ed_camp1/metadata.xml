@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en"><Esri><MetaID>{972CCCD5-75B4-4BA4-8A9E-A767350B0737}</MetaID><CreaDate>20080905</CreaDate><CreaTime>10594500</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Spatial Analyst Tools.tbx\Reclassify" Date="20080905" Time="105945">Reclassify EucDist_camp1 Value "0 2500 0;2501 63481.1796875 1" D:\personal_soft\Courses\USF_courses\EAGIS_grad\2008\Week3\lab2\Lab2_data\partc\RC_ED_camp1 DATA</Process></lineage></DataProperties></Esri></metadata>
