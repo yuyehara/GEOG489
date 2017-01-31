@@ -126,9 +126,9 @@ Email: yi.qiang@hawaii.edu
 # Question
 What GIS datatype (raster or vector) do you use to map the three types of criteria?
 
-- Boolean Criteria
-- Categorical Criteria
-- Boolean Criteria
+- Binary Criteria
+- Discrete Criteria
+- Continuous Criteria
 
 ---
 # Question
@@ -178,7 +178,7 @@ What GIS datatype (raster or vector) do you use to represent the three types of 
 * Rescale the range of criterion value
 * e.g. linear rescale into a range from 1 to 10
 
-(X - Max)/(Max-Min) * 10
+(X - Min)/(Max-Min) * 10
 
 ---
 # Linear standardization
