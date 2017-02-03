@@ -30,7 +30,7 @@ Janke, J. R. (2010). **Multicriteria GIS modeling of wind and solar farms in Col
 
 ---
 ##### Study Area (Colorado)
-<img src="../labs/lab2_data/misc/CO.png" width="800">
+<img src="../labs/lab2_data/misc/co.png" width="800">
 
 ---
 # Defining Criteria
