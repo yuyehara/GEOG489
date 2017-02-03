@@ -3,7 +3,7 @@
 
 # Applied GIS (GEOG 489)
 **Week 4: Suitability Modeling (Case studies)**
-Slides of this class: 
+Slides of this class: https://git.io/vDG0Q
 
 <br>
 Instructor: Yi Qiang
