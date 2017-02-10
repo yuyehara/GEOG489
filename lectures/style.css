@@ -1,0 +1,32 @@
+<style>
+
+/* slide titles */
+.reveal h3 { 
+  font-size: 100px;
+  font-weight: bold;
+
+  color: blue;
+}
+
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h2 {
+   font-size: 40px;
+   font-weight: normal;
+}
+
+/* heading for slides with two hashes # */
+.reveal .slides section .slideContent h1 {
+   font-size: 50px;
+   font-weight: bold;
+}
+
+
+
+/* ordered and unordered list styles */
+.reveal ul, 
+.reveal ol {
+    font-size: 40px;
+    list-style-type: circle;
+}
+
+</style>

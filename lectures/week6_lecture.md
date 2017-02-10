@@ -1,0 +1,207 @@
+Week 6: Land Cover Change Modeling
+========================================================
+author: Yi Qiang
+date: Feb. 17, 2017
+autosize: true
+font-family: 'Helvetica'
+css: style.css
+
+General Steps
+========================================================
+### 1. Data processing
+  - Making images comparable (Classification, interpolation, resampling)
+  
+### 2. Change Detection (Exploratory analysis)
+- How much and where are the changes
+
+### 3. Change Modeling (Empirical modeling)
+- How it changed and why it changed
+
+### 4. Change Simulation (Predictive modeling)
+- How it will change in future or in other scenarios?
+
+3. Change Modeling
+========================================================
+- Identify driving forces of land cover changes
+  - What factors caused the changes?
+- Quantify the relation between the driving forces and changes
+  - What is relative importance and driving direction of the factors?
+  - Quantify the relation into certain types of equation or rules
+  - Need statistical or data mining techniques
+
+
+Regression
+========================================================
+## P<sub>change</sub> = f(x<sub>1</sub>,x<sub>2</sub>,...x<sub>3</sub>)
+<br>
+- Multiple (logistic) regression
+- Linear relation between change probability and driving factors
+- Pro: easy to interpret (white-box), easy to compute and implement
+- Con: Assume normal distribution, linear relations, no colinearity, unable to deal with complex relations.
+
+Machine Learning
+=========================================================
+- Artificial intelligence, optimization techniques based on heuristic algorithm
+- For example, neural network, decision tree, random forest, genetic algorithm, support vector machine, simulated annealing, ant colony optimization
+- Pro: 
+  - better performance for non-linear, complex relations.
+  - No assumptions on normal distribution and non-colinearity
+- Con:
+  - Black-box, do not explain internal mechanism
+  - Computational intensive
+  - Overfitting
+
+Markov Chain
+=========================================================
+- Based on frequencies of historical changes (transition matrix)
+- Quantify the probability of change from State A to B
+
+More about Markov Chain:
+http://setosa.io/ev/markov-chains/
+
+
+3. Change Simulation
+========================================================
+- Predict land cover change in future or other scenarios
+- Based on an empircal model derived from historical data
+- Sometimes have multiple iterations
+- Can be stochastic (include randomness)
+
+3. Change Simulation
+========================================================
+## One-step prediction
+- Similar to suitability modeling
+- Using function derived from t<sub>1</sub> to t<sub>2</sub> predict land cover at t<sub>3</sub> 
+- Result can be a change probability map or change prediction map
+
+3. Change Simulation
+========================================================
+## Iterative prediction
+- Make prediction in multiple steps
+- The status of current step is based on previous step
+- Model dynamic (local) interactions
+- Usually is a stochastic process
+- Commonly used technique: cellular automata and agent-based modeling
+
+Cellular Automata
+========================================================
+
+![](../labs/lab3_data/misc/ca.gif)
+
+
+Wildfire simulation using CA
+========================================================
+http://www.redfish.com/wildfire/<br>
+
+<img src="../labs/lab3_data/misc/wildfire.gif" height="550">
+
+Example 1
+========================================================
+<br><br><br>
+### Wu, F. (2002). Calibration of stochastic cellular automata: the application to rural-urban land conversions. International Journal of Geographical Information Science, 16(8), 795-818.
+
+An Example of Land Cover Modeling
+========================================================
+
+Study area: Tianhe District, Guangdong Province, China
+
+<img src="../labs/lab3_data/misc/land_cover_1973_1993.png">
+
+Transition Equation
+========================================================
+- Global development suitability
+- Local neighborhood effect
+- Constraint
+- Stochastic component
+
+<img src="../labs/lab3_data/misc/equation.png">
+
+
+Urban morphology
+=========================================================
+<img src="../labs/lab3_data/misc/urban.jpg">
+
+Urban sprawl
+=========================================================
+Combined effect of both global development suitability and local neighborhood effect
+<img src="../labs/lab3_data/misc/urban_sprawl.jpg">
+
+3 Simulations
+=========================================================
+- Only global development suitability 
+- Only local neighborhood effect
+- Both global suitability and neighborhood effect
+
+Simulation 1
+=========================================================
+Variable used in the logistic regression model
+
+<img src="../labs/lab3_data/misc/variables.jpg">
+
+Simulation 1
+=========================================================
+Derived coefficients of the logistic regression model
+
+<img src="../labs/lab3_data/misc/coefficients.jpg">
+
+Development suitability (probability) 
+=========================================================
+Calculated from the logistic regression model
+<img src="../labs/lab3_data/misc/probability.jpg">
+
+Urban growth predicted by only development suitability
+=========================================================
+<img src="../labs/lab3_data/misc/simulation1.jpg">
+
+Urban growth predicted by only neighborhood effect
+=========================================================
+<img src="../labs/lab3_data/misc/simulation2.jpg">
+
+Prediction by both global suitability and neighborhood effect
+=========================================================
+<img src="../labs/lab3_data/misc/simulation3.jpg">
+
+Prediction accuracy of the three simulations
+=========================================================
+<img src="../labs/lab3_data/misc/validation.jpg" height="600">
+
+Example 2
+=========================================================
+<br><br>
+### Li, X., & Yeh, A. G. O. (2002). Neural-network-based cellular automata for simulating multiple land use changes using GIS. International Journal of Geographical Information Science, 16(4), 323-343.
+
+Multiple land use changes
+==========================================================
+<img src="../labs/lab3_data/misc/multiple_landcover.jpg" height="600">
+
+Variables used for modeling
+==========================================================
+<img src="../labs/lab3_data/misc/ann_variables.jpg" height="600">
+
+The modeling process
+==========================================================
+<img src="../labs/lab3_data/misc/ann_modeling.jpg" height="600">
+
+ANN calibration
+==========================================================
+<img src="../labs/lab3_data/misc/calibration.jpg" height="600">
+
+Model Validation
+==========================================================
+<img src="../labs/lab3_data/misc/ann_validation.jpg" height="600">
+
+Simulation result
+==========================================================
+<img src="../labs/lab3_data/misc/ann_simulation.jpg" height="600">
+
+Simulation result
+==========================================================
+<img src="../labs/lab3_data/misc/ann_prediction_result.jpg" height="600">
+
+
+Lab Assignment 3
+========================================================
+
+Download the assignment from **https://git.io/vDRCs**
+
+Submission due on March 3
