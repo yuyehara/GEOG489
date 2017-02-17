@@ -38,7 +38,6 @@ General Steps
 
 1. Data Processing
 ========================================================
-### Remote Sensing System Considerations
 
 - Successful remote sensing change detection requires careful attention to: 
  - remote sensor system considerations, and 
@@ -92,7 +91,7 @@ General Steps
   - Change of spatial or non-spatial relation with other variables
   - e.g. increasing deforastration near roads, increasing urbanization in higher elevation regions.
 
-# Transitions
+# Transition Frequency
   - Frequencies of different types of changes (Markov Chain)
   - e.g. what is the most frequent land cover transition, probability of a certain type of transition
   
@@ -184,7 +183,7 @@ New development
 ========================================================
 High resolution images (e.g. Digital Globe)
   - 30m resolution in 30min frequency
-  - Estimate Canadian's retailing industry by 'counting' cars in supermarkets' parking lots.
+  - Estimate Canada's retailing industry by 'counting' cars in supermarkets' parking lots.
   - Estimate China's economy by 'counting' trucks parked in factories in southeastern China.
 
 http://global.digitalglobe.com/interactive/30cm/
