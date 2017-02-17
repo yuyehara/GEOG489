@@ -12,7 +12,7 @@ General Steps
   - Making images comparable (Classification, interpolation, resampling)
   
 ### 2. Change Detection (Exploratory analysis)
-- How much and where are the changes
+- How much and where is the change
 
 ### 3. Change Modeling (Empirical modeling)
 - How it changed and what caused the change
