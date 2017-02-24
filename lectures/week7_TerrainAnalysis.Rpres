@@ -15,20 +15,21 @@ Terrain Analysis
 Terrain Analysis
 ========================================================
 - In addition to X, Y, there is Z (height)
+- Also called 3D Analysis
 
 <img src="http://www.gruner.com/baffin/18s_cropped.jpg" width="800">
 
-Terrain Analysis
+Why analyze terrain?
 ========================================================
 - Different types of terrain - different patterns of X, Y, and Z
-- Formed by different processes
-
+- Formed by different processes - geological, hydrological, and volcanic
+- [Human activities (anthropocene)](http://anthropocene.info/)
  <img src="../labs/lab4_data/misc/terrain.jpg" width="800">
 
 
 Why analyze terrain?
 ========================================================
-Simple measurement, such as distance and area
+Spatial metrics, such as distance, area and volumne
 
  <img src="../labs/lab4_data/misc/sad.jpg" width="900">
  
@@ -48,7 +49,7 @@ Why analyze terrain?
 ========================================================
 Landslide modeling
 
-<img src="../labs/lab4_data/misc/landslide.jpg" width="900">
+<img src="../labs/lab4_data/misc/land_slide.jpg" width="900">
 
 Why analyze terrain?
 ========================================================
@@ -56,31 +57,103 @@ Suitability modeling
 
 <img src="http://www.tellurideskiresort.com/content/uploaded/images/maps/TSR-TM-16-17_1242x874.jpg" width="900">
 
-Why analyze terrain?
-========================================================
+
+Modeling Surface in GIS
+=========================================================
+## Two Most Common Terrain Data Models:
+
+- Digital Elevation Data (DEM) (Raster)
+- Triangular Irregular Network (TIN) (Vector)
+
+Digital Elevation Model (DEM)
+=========================================================
+- DEM is basically a normal raster of elevation -it's called DEM because it is specific for a topographic surface 
+- A DEM is the simplest form to represent a topographic surface
+- One of the most widely used data layers in many GIS applications
+- The critical parameter is the resolution (or grid cell size)
+- 1m resolution DEM for HI, 30m resolution for the US and 1km resolution for the globe are freely available
+
+
+Digital Elevation Model (DEM)
+=========================================================
+Essentially a raster of elevation (2D matrix)
+
+<img src="../labs/lab4_data/misc/DEM1.jpg" width="900">
+
+Digital Elevation Model (DEM)
+=========================================================
+DEM in 3D
+
+<img src="http://www.innovativegis.com/basis/present/gita_denver05/Default_files/image004.jpg" width= "600">
+
+
+Triangular Irregular Model
+=========================================================
+
+A vector model for 3D terrain
+
+<img src="http://www.edc.uri.edu/nrs/classes/nrs409509/Lectures/8Models/AnalysisGraphics/TIN_Model.gif" width="800">
+
+Triangular Irregular Model
+=========================================================
+Delaunay Triangulation between sampling points
+
+<img src="../labs/lab4_data/misc/TIN1.jpg" width="750">
+
+Triangular Irregular Model
+======================================================
+A facet of TIN in 3D
+<img src="../labs/lab4_data/misc/TIN2.jpg" width="900">
+
+Triangular Irregular Model
+======================================================
+Resolution of TIN - number of triangles
+
+<img src="../labs/lab4_data/misc/TIN3.jpg" width="700">
 
 Basic Terrain Analysis
+=========================================================
 - Surface-adjusted metrics (distance and area)
 - Slope (Landslide susceptibility)
 - Aspect (Solar insolation, vegetation)
+- Profile (elevation change along a line)
 - Viewshed (visibility)
-- Catchment or dispersal area (Runoff volume, soil drainage)
-- Flow pathWatershed delination, flow accumulation (hydrology)
-- Indices (e.g., terrain ruggness)
+- Hillshade (visualization)
+- Area solar radiation
+- *Flow path, watershed delination, flow accumulation (hydrology)*
+- *Indices (e.g., terrain ruggedness)*
 
-Distance calculation in DEM
+Distance calculation in DEM (Pixel-to-pixel approach)
 =========================================================
-
-The sum of actual run between every pair of pixels along the line
+- Convert a vector line to a raster line
+- The sum of actual run between every pair of adjacent pixels
 
 <img src="../labs/lab4_data/misc/distance.jpg" width="900">
 
-Distance calculation in Triangular Irregular Network (TIN)
+Distance calculation in DEM (Sampling approach)
 =========================================================
 
-The sum of actual run between every pair of pixels along the line
+- Define sampling points along a transect
+- The sum of distance between each pair of points
 
-<img src="../labs/lab4_data/misc/cc_dist.jpg" width="300">
+<img src="../labs/lab4_data/misc/cc_dist.jpg" width="400">
+
+Distance calculation in TIN
+=========================================================
+
+- Define a number of sampling points along a transect
+- The elevation of a point is estimated from the triangle it is located in or the surrounding triangles
+- The sum of distance between each pair of sampling points
+
+<img src="../labs/lab4_data/misc/distance_tin.jpg" width="1000">
+
+No guidelines of distance calculation
+=========================================================
+- ~ 10 different measurement approaches
+- Caculation accuracy = f(DEM/TIN resolution, landscape, interpolation method, sampling size)
+- Trade-offs between accuracy and data size, accuracy and computation time.
+
+<img src="../labs/lab4_data/misc/sad3.jpg" width="1000">
 
 
 Area caculation
@@ -88,7 +161,7 @@ Area caculation
 
 Surface adjusted area is the total area of all the triangular facets
 
-<img src="https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/42204/versions/2/screenshot.png" width="700">
+<img src="https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/42204/versions/2/screenshot.png" width="500">
 
 
 Slope Calculation
@@ -96,213 +169,149 @@ Slope Calculation
 - Angle of the slope (degree)
 - Ratio of the slope (percentage)
 
-<img src="../labs/lab4_data/misc/slope.jpg" width="700">
+<img src="../labs/lab4_data/misc/slope.jpg" width="900">
+
 
 Calculate slope in DEM
 =========================================================
 
-- In DEM, maximum rate of change in value from that cell to its neighbors.
-- Slope tool in ArcGIS
+- In DEM, maximum rate of change in value from that cell to its neighbors.<br>
+
+<img src="http://www.innovativegis.com/basis/mapanalysis/topic11/Topic11_files/image043.png" width="900">
+
+Slope calculation in ArcGIS
+=========================================================
+Geometric combination of vertical (x direction) descent and horizontal (y direction) descent <br>
+<img src="../labs/lab4_data/misc/slope2.jpg" width="1000">
+
+
+Calculate slope in DEM
+=========================================================
+Elevation to Slope
 
 <img src="http://desktop.arcgis.com/en/arcmap/10.3/tools/spatial-analyst-toolbox/GUID-3922F5AA-019D-4625-8C19-B67E7DF5B092-web.png" width="1200">
 
-
-3. Change Modeling
-========================================================
-- Quantify the relation between the driving forces and changes
-  - Empirical study based on past changes
-  - What factors caused the changes?
-  - Quantify the relation into certain types of equation or rules
-  - Need statistical or data mining techniques
-
-
-Statistic Approach
-========================================================
-## P<sub>change</sub> = f(x<sub>1</sub>,x<sub>2</sub>,...x<sub>3</sub>)
-<img src="../labs/lab3_data/misc/log_reg.jpg" width="800">
-- Multiple (logistic) regression
-- Linear relation between change probability and driving factors
-- Pro: easy to interpret (white-box), easy to compute and implement
-- Con: assume normal distribution, linear relations, no colinearity, unable to deal with complex relations.
-
-Machine Learning
+Aspect
 =========================================================
-- Artificial intelligence, optimization techniques based on heuristic algorithm
-- For example, neural network, decision tree, random forest, genetic algorithm, support vector machine, simulated annealing, ant colony optimization
-- Pro: 
-  - better performance for non-linear, complex relations.
-  - No assumptions on normal distribution and non-colinearity
-- Con:
-  - Black-box, do not explain internal mechanism
-  - Computational intensive
-  - Overfitting
+- The direction of the slope 
 
-Markov Chain
+<img src="http://pro.arcgis.com/en/pro-app/tool-reference/spatial-analyst/GUID-A3590481-6E96-4BD8-BF50-25093FD55F00-web.gif" width="250"><br>
+<img src="http://pro.arcgis.com/en/pro-app/tool-reference/spatial-analyst/GUID-8A2021F8-6D40-4EDA-B677-4C376C6DC246-web.png" width="700">
+
+
+Profile
 =========================================================
-- Quantify the probability of change from State A to B
-- Based on frequencies of past changes (transition matrix)
+Most GIS packages provide tools for examining the profile of a surface along a selected straight line or series of straight line segments (polyline).
 
-More about Markov Chain:
-http://setosa.io/ev/markov-chains/
-
-4. Change Simulation
-========================================================
-- Predict land cover change in future or other scenarios
-- Based on an empircal model derived from past changes
-- Sometimes have multiple iterations (Cellular Automata)
-- Can be stochastic (include randomness)
-
-4. Change Simulation
-========================================================
-### Using transition rules derived from t<sub>1</sub> to t<sub>2</sub> predict land cover at t<sub>3</sub>
+<img src="http://www.spatialanalysisonline.com/HTML/clip0250.png" width="1200">
 
 
-## One-step simulation
-- Result is usually a change probability map - similar to suitability modeling
-
-## Iterative simulation
-- Run simulation in multiple steps
-- The status of current step is based on the previous step
-- Model dynamic changes with local interactions
-- Usually is a stochastic process
-- Commonly used technique: cellular automata
-
-Cellular Automata
-========================================================
-
-![](../labs/lab3_data/misc/ca.gif)
-
-
-Urban growth simulation using CA
-=======================================================
-
-https://www.youtube.com/watch?v=FQ7LNtmVEAM
-
-Wildfire simulation using CA
-========================================================
-
-<img src="../labs/lab3_data/misc/wildfire.gif" height="550">
-
-Example 1
-========================================================
-<br><br><br>
-### Wu, F. (2002). Calibration of stochastic cellular automata: the application to rural-urban land conversions. *International Journal of Geographical Information Science*, 16(8), 795-818.
-
-An Example of Land Cover Modeling
-========================================================
-
-Study area: Tianhe District, Guangdong Province, China
-
-<img src="../labs/lab3_data/misc/land_cover_1973_1993.png">
-
-
-Urban morphology
+Profile
 =========================================================
-<img src="../labs/lab3_data/misc/urban.jpg">
+Profile along multiple straight transects
 
-Urban sprawl and spill-over
+<img src="http://www.spatialanalysisonline.com/HTML/clip0251.png" width="600">
+
+
+Profile
 =========================================================
-### Both sprawl and spill-over patterns in urban morphology
-<img src="../labs/lab3_data/misc/urban_sprawl.jpg">
+- Profile of a path/route
 
-Urban sprawl and spill-over
+<img src="../labs/lab4_data/misc/TDF.jpg" width="1200">
+
+Viewshed
 =========================================================
-### Both sprawl and spill-over patterns in urban morphology
-<img src="../labs/lab3_data/misc/europe.jpg">
+- Areas visible to a set of observer features.
+- Viewshed tool in ArcGIS
 
-Transition Function
-========================================================
-- Global development suitability
-- Local neighborhood effect
-- Constraint
-- Stochastic component
+<img src="http://pro.arcgis.com/en/pro-app/tool-reference/3d-analyst/GUID-E0E64C10-1AE7-4925-88DB-6EDD7ACE91A8-web.png" width="800">
 
-<img src="../labs/lab3_data/misc/equation.png">
 
-Three different simulations
+Viewshed
 =========================================================
-- Only global development suitability 
-- Only local neighborhood effect
-- Both global suitability and neighborhood effect
+- Listening Posts/Observation Posts (LP/LO)
+- Weapons placement
+- Antenna placement for radar, radios, or cell phones
+- Special surveillance equipment placement
 
-Simulation 1
+<img src="http://www.innovativegis.com/basis/mapanalysis/topic15/Topic15_files/image021.png" width="800">
+
+
+Hillshade
 =========================================================
-- Predict urban growth with only global suitability
-- Fitting the variables into a logistic regression model
-<img src="../labs/lab3_data/misc/variables.jpg">
+- Hypothetical illumination of a surface by determining illumination values for each cell in a raster
+- Enhance the visualization of a surface for analysis or graphical display
+- Parameters: altitude and azimuth
 
-Simulation 1
-=========================================================
-Derived coefficients of the logistic regression model
+<img src="../labs/lab4_data/misc/viewshed1.jpg" width="1200">
 
-<img src="../labs/lab3_data/misc/coefficients.jpg">
 
-Development suitability (probability) 
-=========================================================
-Calculated from the logistic regression model
-<img src="../labs/lab3_data/misc/probability.jpg">
-
-Urban growth predicted by only development suitability
-=========================================================
-<img src="../labs/lab3_data/misc/simulation1.jpg">
-
-Urban growth predicted by only neighborhood effect
-=========================================================
-<img src="../labs/lab3_data/misc/simulation2.jpg">
-
-Prediction by both global suitability and neighborhood effect
-=========================================================
-<img src="../labs/lab3_data/misc/simulation3.jpg">
-
-Prediction accuracy of the three simulations
-=========================================================
-<img src="../labs/lab3_data/misc/validation.jpg" height="600">
-
-Example 2
-=========================================================
-<br><br>
-### Li, X., & Yeh, A. G. O. (2002). Neural-network-based cellular automata for simulating multiple land use changes using GIS. *International Journal of Geographical Information Science*, 16(4), 323-343.
-
-Multiple land use changes
+Altitude (Hillshade)
 ==========================================================
-<img src="../labs/lab3_data/misc/multiple_landcover.jpg" width="900">
+- The altitude is the angle of the illumination source (e.g. the sun) above the horizon. 
+- The units are in degrees, from 0 (on the horizon) to 90 (overhead). The default is 45 degrees.
+<img src="http://pro.arcgis.com/en/pro-app/tool-reference/3d-analyst/GUID-65020708-B706-4B97-A9F3-A8F4EBA2A834-web.gif
+" width="600">
 
-Multiple land use changes
+
+Hillshade (Hillshade)
 ==========================================================
-<img src="../labs/lab3_data/misc/ann.jpg" width="900">
+- Azimuth is the angular direction of the sun, measured from north in clockwise degrees from 0 to 360. 
+- An azimuth of 90 degrees is east. The default azimuth is 315 degrees (NW).
+- Why default azimuth is 315 (NW), given most people are living in the North Hemisphere where the Sun azimuth is South?
 
-Variables used for modeling
+
+<img src="http://pro.arcgis.com/en/pro-app/tool-reference/3d-analyst/GUID-B0CF4608-E687-460F-BA90-133EC5D6DACD-web.gif" width="600">
+
+Hillshade
 ==========================================================
-<img src="../labs/lab3_data/misc/ann_variables.jpg" width="650">
+## Sink or hill?
+<img src="../labs/lab4_data/misc/hs_135.jpg" width="500">
 
-The modeling process
+Hillshade
 ==========================================================
-<img src="../labs/lab3_data/misc/ann_modeling.jpg" width="700">
+## Sink or hill?
+<img src="../labs/lab4_data/misc/hs_315.jpg" width="500">
 
-ANN calibration
+Hillshade
 ==========================================================
-<img src="../labs/lab3_data/misc/calibration.jpg" width="900">
+Original DEM - hill <br>
+<img src="../labs/lab4_data/misc/origin_dem.jpg" width="500">
 
-Model Validation
-==========================================================
-<img src="../labs/lab3_data/misc/ann_validation.jpg" width="1100">
+Hillshade
+=========================================================
+- Combining viewshed with elevation
 
-Simulation result
-==========================================================
-<img src="../labs/lab3_data/misc/ann_simulation.jpg" height="650">
+<img src="../labs/lab4_data/misc/viewshed2.jpg" width="1200">
 
-Simulation result
-==========================================================
-<img src="../labs/lab3_data/misc/ann_prediction_result.jpg" width="1000">
+Solar Radiation Analysis
+=========================================================
+Cumulative solar radiation in a day (Area Solar Radiation tool in ArcGIS)
 
-Some announcements
-==========================================================
-1. You will need to print your poster in a 40"(height)*60"(width) dimension for your final project
-2. There will be no class on April 7th - I'll set up a Doodle pool for a make-up date.
+<img src="http://www4.ncsu.edu/~emohler/gis582/582images/a10/figure2sm.png" width="800">
 
-Lab Assignment 3
-========================================================
+Viewshed
+=========================================================
+Solar Radiation: Summer Solstice
 
-Download the assignment from **https://git.io/vDRCs**
+<img src="http://www4.ncsu.edu/~emohler/gis582/582images/a10/figure7sm.png" width="900">
 
-Submission due on March 3
+Viewshed
+=========================================================
+Solar Radiation: Winter Solstice
+
+<img src="http://www4.ncsu.edu/~emohler/gis582/582images/a10/figure8sm.png" width="900">
+
+Anouncement
+=========================================================
+Change of topics:
+Topic 5: Spatial Interpolation -> Hazard risk and vulnerability assessment
+Topic 6: Advanced spatial modeling -> Web mapping
+Next class -> Project discussion
+
+Lab 4 Assignment (Terrain analysis)
+=========================================================
+
+Due date March 17
+
+[https://github.com/qiang-yi/GEOG489/blob/master/labs/lab4_terrain_analysis.docx](https://github.com/qiang-yi/GEOG489/blob/master/labs/lab4_terrain_analysis.docx)
