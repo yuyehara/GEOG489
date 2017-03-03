@@ -1,4 +1,4 @@
-Week 8: Proposal Feedbacks
+Week 8: Proposal Feedback
 ========================================================
 author: Yi Qiang
 date: Mar. 3, 2017
@@ -22,8 +22,7 @@ Common issues
 - Validate with existing distribution
 - Adjust your model by Trial-and-Error approach
 - Build a regression model between existing distribution (dependent variable) and criteria (predictive variables)
-  - More advanced - take more time
-  - Need enough sample size
+
 
 
 Data sources
