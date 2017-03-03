@@ -11,7 +11,7 @@ Proposals
 ## 8 proposals received.
   - 6/8 of them are suitability modeling
   - 2/8 may be vulnerability/risk assessment
-  - 8/8 have a study area in Hawaii
+  - 8/8's study area is Hawaii
   
 
 Common issues
@@ -33,11 +33,11 @@ Office of Planning - State of Hawaii http://planning.hawaii.gov/gis/download-gis
 Climate, Rainfall Atlas, Evapotranspiration, Solar Radiation of Hawaii - UH Geography
 http://climate.geography.hawaii.edu/
 
-UH Manoa Library
-http://magis.manoa.hawaii.edu/gis/data.html
-
 UH Coastal Geology Group
 http://www.soest.hawaii.edu/coasts/data/
+
+UH Manoa Library
+http://magis.manoa.hawaii.edu/gis/data.html
 
 ArcGIS online
 Data with 'Add' button are downloadable
