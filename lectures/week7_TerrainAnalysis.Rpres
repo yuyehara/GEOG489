@@ -300,8 +300,7 @@ Viewshed
 =========================================================
 Solar Radiation: Winter Solstice
 
-<img src="http://www4.ncsu.edu/~emohler/gis582/582images/a10/figure8sm.png" width="900">
-
+ 
 Anouncement
 =========================================================
 Change of topics:
