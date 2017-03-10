@@ -8,18 +8,18 @@ css: style.css
 
 Stream and Watershed Delineation
 ========================================================
-Flow direction
-Flow accumulation
-Stream delineation
-Stream network/order
-Watershed delineation
+- Flow direction
+- Flow accumulation
+- Stream delineation
+- Stream network/order
+- Watershed delineation
 
 
 What is watershed
 ========================================================
 
-Definition: An area of land where all of the water that falls in it and drains off of it goes to a common outlet.
-<img src="http://www.maine.gov/dep/land/watershed/images/watershed_diagram_sm.jpg" width="1000">
+A drainage basin or catchment basin is an extent or an area of land where all surface water from rain, melting snow, or ice converges to a single point at a lower elevation.<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/EN_Bazinul_hidrografic_al_Raului_Latorita%2C_Romania.jpg/354px-EN_Bazinul_hidrografic_al_Raului_Latorita%2C_Romania.jpg" width="1000">
 
 What is watershed
 ========================================================
@@ -27,9 +27,11 @@ A hierachical system - 6 levels in the U.S. (Hydrologic Unit Code)
   - regions, subregions, basins, subbasins, watersheds, and subwatersheds
 <img src="https://water.usgs.gov/pubs/wri/wri934076/usimage/huc_region.gif" width="1000">
 
-Watershed delination in a contour map
+Watershed delination
 ========================================================
-General steps:
+- It is impossible to do experiment of water drainage in the real world
+- Watershed is delineated in terrain map or digital terrain model
+- Manually delineate in a contour map:
   1. Determine the outlet point (mark as a circle)
   2. Identify high points around the upperstream of the outlet point (mark as crosses)
   3. Starting from the outlet point, drawing a line to link all high points (crosses)
@@ -37,11 +39,11 @@ General steps:
 
 Watershed delination in a contour map
 ========================================================
-<img src="https://www.nrcs.usda.gov/Internet/FSE_MEDIA/nrcs144p2_014463.jpg" width="800">
+<img src="https://www.nrcs.usda.gov/Internet/FSE_MEDIA/nrcs144p2_014463.jpg" width="750">
 
 Watershed delination in digital elevation model
 ========================================================
-How to delineate watershed in DEM
+DEM - a raster of pixels
 <img src="../labs/lab4_data/misc/DEM1.jpg" width="1000">
 
 Watershed delination in digital elevation model
@@ -50,7 +52,7 @@ General steps:
   1. Pit/Peak filling - remove error pixels
   2. Flow direction - where water flow at each pixel
   3. Flow accumulation - water in how many pixels will eventually flow to this pixel
-  4. Watershed and stream delineate
+  4. Stream delineate or Watershed delineation
   
 Pit/peak filling
 =======================================================
@@ -68,9 +70,6 @@ Pit/peak filling
 =======================================================
 <img src="../labs/lab4_data/misc/pit_filling.jpg" width="1200">
 
-Pit/peak filling
-=======================================================
-<img src="https://blogs.esri.com/esri/arcgis/files/2013/03/Fig3.jpg" width="1000">
 
 Flow direction
 =======================================================
@@ -80,8 +79,8 @@ Coded as: 2<sup>x</sup> (x=1,2,... 8) from east and clockwise  <br>
 
 Flow direction
 =======================================================
-  1.Identify the neighbor pixels with lower elevation than the central pixel
-  2.Calculate the downslopes, find the neighbor pixel with highest downslope rate.
+  1.Identify the neighbor pixels with lower elevation than the central pixel<br>
+  2.Calculate the downslopes, find the neighbor pixel with highest downslope rate.<br>
   Note: different from aspect
 <img src="../labs/lab4_data/misc/Flow_direction.jpg">
 
@@ -94,16 +93,12 @@ Stream delineation
 =======================================================
 1. Flow accumulation - the number of pixels flowing into the pixel
 2. Stream delineation - All cells with flow accumulation above a threshold form a stream (Reclassify or Raster Calculator)
-<img src="../labs/lab4_data/misc/Flow_direction2.jpg"  width = "1000">
-
-Stream segmentation in DEM
-=======================================================
-Numbering streams in a stream raster
-<img src="../labs/lab4_data/misc/stream_segmentation.jpg" width = "800">
+<img src="../labs/lab4_data/misc/Flow_direction3.jpg"  width = "1000">
 
 Stream delineation
 =======================================================
 <img src="../labs/lab4_data/misc/threshold.jpg"  width = "1000">
+
 
 Stream network and order
 =======================================================
@@ -118,7 +113,35 @@ Watershed delineation
 1. Identify watershed outlet (pour point) - Snag to pour point tool in ArcGIS
 <img src="../labs/lab4_data/misc/pour_point.jpg" width = "800">
 
+Quiz: Where in Oahu has the best oceanview
+=======================================================
 
+Viewshed analysis
+=======================================================
+Areas where can see the point:
+<img src="../labs/lab4_data/misc/ocean1.jpg"  width = "700">
 
+Oceanview
+=======================================================
+<img src="https://images.trvl-media.com/hotels/17000000/16040000/16037900/16037809/b446bd2e_z.jpg" width="1000">
 
+Oceanview
+=======================================================
+<img src="http://www.americansights.ru/images/stories/hawaii4.jpg" width="1000">
 
+Building impact to oceanview
+=======================================================
+<img = src="http://i.imgur.com/bvO9pfT.jpg">
+
+Digtal Terrain Model and Digital Surface Model
+=======================================================
+Two DEM models can be derived from LiDAR point cloud
+
+<img src="http://www.luxcarta.com/newsletter/archive/3-3/DTM_vs_DSM.jpg" width="1100">
+
+Lab 4: Terrain analysis
+=======================================================
+
+https://github.com/qiang-yi/GEOG489/blob/master/labs/lab4_terrain_analysis.docx
+
+Due: March 17th
