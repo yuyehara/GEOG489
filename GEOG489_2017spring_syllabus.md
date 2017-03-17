@@ -91,8 +91,8 @@ If you have any challenges to learning and need support of any kind, you are inv
 |Wk 7: Fri	|24	|Terrain and watershed analysis – General terrain analysis techniques ; Lab 4|
 |Wk 8: Fri	|Mar 3|Terrain and watershed analysis – Stream and watershed delineation; Lab 4|
 |Wk 9: Fri	|10	|Project proposal/progress meeting |
-|Wk 11: Fri	|17	|Hazard risk and vulnerability assessment; Lab 5| 
-|Wk 12: Fri	|24	|Hazard risk and vulnerability assessment; Lab 5|
+|Wk 11: Fri	|17	|Disaster risk and vulnerability assessment; Lab 5| 
+|Wk 12: Fri	|24	|Disaster risk and vulnerability assessment; Lab 5|
 |Wk 10: Fri	|31	|Spring recess|
 |Wk 13: Fri	|Apr 7	|Web mapping –Lab 6|
 |Wk 14: Fri	|14	|Holiday: Good Friday |
