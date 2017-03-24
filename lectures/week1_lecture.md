@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 
 # Applied GIS (GEOG 489)
 **Week 1: Course Introduction**
@@ -138,12 +143,12 @@ Union| Surface interpolation
 ---
 # Project Deliverables 2
 * Project Report (Maximum 6 pages, excluding references) 
-    + Background (~ 0.5 page): Motivation of problem
-    + Hypothesis (~ 0.5 pages): Succinct statement of problem
-    + Methodology (~ 1 pages): Appropriate use of GIS
-    + Results (~ 1 pages): Do results address hypothesis
-    + Discussion and Conclusions ( ~ 1 - 2 pages): Interpretation of results, conclusions of the study
-    + Future Work (~ 0.5 pages): Next steps
+  +	Introduction (~ 0.5 page): Background information and motivation of study
+  +	Related work (~ 0.5 page): Brief discuss other work related to your project
+  +	Methodology (1 page): Workflow of your study
+  +	Results (1 page): Interpretation of the result
+  +	Discussion (~ 0.5 page): Limitation of your study
+  +	Conclusions and Future Work ( ~ 0.5 page).
 ---
 # Project Deliverables 3 & 4
 * Poster

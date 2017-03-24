@@ -24,7 +24,7 @@ Why analyze terrain?
 - Different types of terrain - different patterns of X, Y, and Z
 - Formed by different processes - geological, hydrological, and volcanic
 - [Human activities (anthropocene)](http://anthropocene.info/)
- <img src="../labs/lab4_data/misc/terrain.jpg" width="800">
+ <img src="../labs/lab4_data/misc/terrain.JPG" width="800">
 
 
 Why analyze terrain?
@@ -234,8 +234,7 @@ Viewshed
 - Antenna placement for radar, radios, or cell phones
 - Special surveillance equipment placement
 
-<img src="http://www.innovativegis.com/basis/mapanalysis/topic15/Topic15_files/image021.png" width="800">
-
+<img src="../labs/lab4_data/misc/viewshed11.jpg" width="800">
 
 Hillshade
 =========================================================
@@ -250,11 +249,10 @@ Altitude (Hillshade)
 ==========================================================
 - The altitude is the angle of the illumination source (e.g. the sun) above the horizon. 
 - The units are in degrees, from 0 (on the horizon) to 90 (overhead). The default is 45 degrees.
-<img src="http://pro.arcgis.com/en/pro-app/tool-reference/3d-analyst/GUID-65020708-B706-4B97-A9F3-A8F4EBA2A834-web.gif
-" width="600">
+<img src="http://pro.arcgis.com/en/pro-app/tool-reference/3d-analyst/GUID-65020708-B706-4B97-A9F3-A8F4EBA2A834-web.gif" width="600">
 
 
-Hillshade (Hillshade)
+Azimuth (Hillshade)
 ==========================================================
 - Azimuth is the angular direction of the sun, measured from north in clockwise degrees from 0 to 360. 
 - An azimuth of 90 degrees is east. The default azimuth is 315 degrees (NW).
@@ -299,8 +297,8 @@ Solar Radiation: Summer Solstice
 Viewshed
 =========================================================
 Solar Radiation: Winter Solstice
+<img src="http://www4.ncsu.edu/~emohler/gis582/582images/a10/figure8.png" width="900">
 
- 
 Anouncement
 =========================================================
 Change of topics:
