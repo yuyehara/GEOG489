@@ -103,7 +103,7 @@ Open the **Command Prompt** in windows (you can search it in the Windows search 
 <img src="../labs/lab6_data/misc/arcgis21.png" width="200"><br>
 Open a new tab in your browswer, and type **http://localhost:8000** in the address bar, and then browse to the Geography website you've downloaded and click to open it. You will see the GEOG website. Now you have set up a HTTP server in your local computer and opened the GEOG website in the server. Next, we will replace the flipping photos with the web map.
 
-Go to the web map in ArcGIS online, click **Share -> Embed in Website**, click copy to copy the html script. Then browse to the website in Windows Explorer, right click on the html file and open it using **Notepad++**. Replace the html script from Line 95 to 106 with the copied script.
+Go to the web map in ArcGIS online, click **Share -> Embed in Website**, click copy to copy the html script. Then browse to the website in Windows Explorer, right click on the html file and open it using **Notepad++**. You can download and unzip Notepad++ from [here](https://notepad-plus-plus.org/repository/7.x/7.3.3/npp.7.3.3.bin.zip). Replace the html script from Line 95 to 106 with the copied script.
 
 <img src="../labs/lab6_data/misc/arcgis20.png" width="600"><br>
 
