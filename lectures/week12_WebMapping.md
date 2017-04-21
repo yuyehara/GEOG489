@@ -1,6 +1,7 @@
-# Week 12: Web Mapping
+# Week 12: Web Mapping using ArcGIS online
 Instructor: Yi Qiang
 April 21,2017
+Instruction URL: https://git.io/v9J5B
 ## 1. Sharing Maps using ArcGIS
 ### 1.1 Sharing a Map Package
 Sharing a map package is the easiest way to share maps you created in ArcGIS with other ArcGIS users.
@@ -8,8 +9,8 @@ Sharing a map package is the easiest way to share maps you created in ArcGIS wit
 - The shared package can only be viewed in ArcGIS
 - Require ESRI account and ArcGIS for both both side (uploader and downloader)
 
-**Practice 1**: Share your lab 4 (terrain analysis) result as a package
-First, open the your Lab 4 exercise (.mxd file) in ArcGIS. Go to the 'File' menu, click **Share As -> Map Package**.
+**Practice 1**: Share your lab 4 (terrain analysis) result as a package.
+First, open the your Lab 4 exercise (.mxd file) in ArcGIS. If you don't have it, download it and unzip it from [here](https://github.com/qiang-yi/GEOG489/blob/master/labs/lab4_data/lab4_data.zip). Go to the 'File' menu, click **Share As -> Map Package**.
 Choose **upload package to an ArcGIS online account**, then enter your username and password in the **ArcGIS Sign In** window. If you don't have an account yet, you can use your Facebook or Google+ account to log in.
 
 <img src="../labs/lab6_data/misc/arcgis1.png" width="500"><br>
