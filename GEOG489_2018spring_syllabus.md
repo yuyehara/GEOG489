@@ -1,9 +1,8 @@
                              
-# eography 489: Applied GIS  (Spring 2017) <br/>Syllabus and Schedule
+# eography 489: Applied GIS  (Spring 2018) <br/>Syllabus and Schedule
 
-##### Instructor: Yi Qiang <br/>Email: yi.qiang@hawaii.edu <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Monday 1:00-2:00 PM or by appointment
+##### Instructor: Yi Qiang <br/>Email: yi.qiang@hawaii.edu <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Tuesday 1:00-2:00 PM or by appointment
 
-##### Teaching Assistant: Katie Taladay<br/>Email: taladay@hawaii.edu<br/>Office: Saunders 422 <br/>Office hours: Wednesday 1:00-3:00 PM or by appointment <br/>
 ##### Course website:<br/> http://laulima.hawaii.edu (for readings and assignments)<br/>https://github.com/qiang-yi/GEOG489 (for code and demos)
 
 ##### Class time: Friday – 9AM to 11:30 AM <br/>Location: Physical Sciences Building 310 
@@ -24,7 +23,7 @@ GEOG388 (former GEOG488) or equivalent GIS knowledge and skills.  More detailed 
 ## Course materials
 Weekly required readings (most from journals) will be posted on the laulima website. **Do the readings before lectures!!!**
 
-Optional reference books (use them if you want to learn more than covered in the class):
+Optional reference books (not required, use them if you want to learn more than covered in the class):
 
 * *Kanevski, M.F., and M. Maignan. 2004. Analysis and Modelling of Spatial Environmental Data. EPFL Press, Distributed by Marcel Dekker, Inc. ISBN: 0824759818. (focus on Geostatistics)*
 
@@ -82,24 +81,24 @@ If you have any challenges to learning and need support of any kind, you are inv
 
 |day |   Date    |  Content|
 |---|---|---|
-|Wk 1: Fri	|Jan 13	|Course Intro; Geoprocessing with ArcGIS Desktop; Lab 1|
-|Wk 2: Fri	|20	|Python Scripting for Geoprocessing Workflows; Lab 1|
-|Wk 3: Fri	|27	|Suitability modeling – General suitability modeling; Lab 2|
-|Wk 4: Fri	|Feb 3	|Suitability modeling – Predictive habitat suitability modeling; Lab 2|
-|Wk 5: Fri	|10	|Land cover change modeling – Change and time-series analysis; Lab 3|
-|Wk 6: Fri	|17	|Land cover change modeling  – Simulation; Lab 3|
-|Wk 7: Fri	|24	|Terrain and watershed analysis – General terrain analysis techniques ; Lab 4|
-|Wk 8: Fri	|Mar 3|Terrain and watershed analysis – Stream and watershed delineation; Lab 4|
-|Wk 9: Fri	|10	|Project proposal/progress meeting |
-|Wk 11: Fri	|17	|Disaster risk and vulnerability assessment; Lab 5| 
-|Wk 12: Fri	|24	|Disaster risk and vulnerability assessment; Lab 5|
-|Wk 10: Fri	|31	|Spring recess|
-|Wk 13: Fri	|Apr 7	|Web mapping –Lab 6|
-|Wk 14: Fri	|14	|Holiday: Good Friday |
-|Wk 15: Fri	|21	|Web mapping –Lab 6|
-|Wk 16: Fri	|28	|Project Presentation (1)|
-|Wk 17: Fri|	May 5	|Project Presentation (2)|
+|Wk 1: Fri	|Jan 12	|Course Intro; Review Spatial overlay; Lab 1|  
+|Wk 2: Fri	|19	|Suitability modeling; Lab 1|
+|Wk 3: Fri	|26	|Automate geoprocessing in ArcGIS - ModelBuilder; Lab 2|
+|Wk 4: Fri	|Feb 2	|Automate geoprocessing in ArcGIS - Python scripting; Lab 2|
+|Wk 5: Fri	|9	|Land cover change modeling – Change and time-series analysis; Lab 3|
+|Wk 6: Fri	|16	|Land cover change modeling  – Simulation; Lab 3|
+|Wk 7: Fri	|23	|Terrain and watershed analysis – General terrain analysis techniques ; Lab 4|
+|Wk 8: Fri	|Mar 2|Terrain and watershed analysis – Stream and watershed delineation; Lab 4|
+|Wk 9: Fri	|9	|Project proposal/progress meeting |
+|Wk 11: Fri	|16	|Accessibility analysis; Lab 5| 
+|Wk 12: Fri	|23	|Accessibility analysis; Lab 5|
+|Wk 10: Fri	|30	|Spring recess|
+|Wk 13: Fri	|Apr 6	|Disaster risk and vulnerability assessment; – Lab 6|
+|Wk 14: Fri	|13	|Holiday: Good Friday |
+|Wk 15: Fri	|20	|Disaster risk and vulnerability assessment; – Lab 6|
+|Wk 16: Fri	|27	|Project Presentation (1)|
+|Wk 17: Fri|	May 4	|Project Presentation (2)|
 
 
 
-** Important Note: This syllabus is tentative and may change. This is updated on December 8, 2016.**
+** Important Note: This syllabus is tentative and may change. This is updated on Jan. 2nd, 2018.**
