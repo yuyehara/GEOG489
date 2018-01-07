@@ -3,7 +3,7 @@
 
 ##### Instructor: Yi Qiang <br/>Email: yi.qiang@hawaii.edu <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Tuesday 1:00-2:00 PM or by appointment
 
-##### Course website:<br/> http://laulima.hawaii.edu (for readings and assignments)<br/>https://github.com/qiang-yi/GEOG489 (for code and demos)
+##### Course website:<br/> http://laulima.hawaii.edu (for readings and assignments)
 
 ##### Class time: Friday – 9AM to 11:30 AM <br/>Location: Physical Sciences Building 310 
 ---
