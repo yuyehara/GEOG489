@@ -36,8 +36,8 @@ Optional reference books (not required, use them if you want to learn more than 
 
 |Component	|Score (%)|
 |---------|---------|
-|6 Labs	|50|
-|1 Final project	|40|
+|5 Labs	|50|
+|1 Course project	|40|
 |Participation	|10 | 
 |Total	|100|
 
@@ -81,10 +81,10 @@ If you have any challenges to learning and need support of any kind, you are inv
 
 |day |   Date    |  Content|
 |---|---|---|
-|Wk 1: Fri	|Jan 12	|Course Intro; Review Spatial overlay; Lab 1|  
-|Wk 2: Fri	|19	|Suitability modeling; Lab 1|
-|Wk 3: Fri	|26	|Automate geoprocessing in ArcGIS - ModelBuilder; Lab 2|
-|Wk 4: Fri	|Feb 2	|Automate geoprocessing in ArcGIS - Python scripting; Lab 2|
+|Wk 1: Fri	|Jan 12	|Course Intro; Automate geoprocessing in ArcGIS using ModelBuilder; Lab 1|  
+|Wk 2: Fri	|19	|Automate geoprocessing in ArcGIS using ModelBuilder; Lab 1|
+|Wk 3: Fri	|26	|Review Spatial Overlay and suitability modeling; Lab 2|
+|Wk 4: Fri	|Feb 2	|Suitability Modeling; Lab 2|
 |Wk 5: Fri	|9	|Land cover change modeling – Change and time-series analysis; Lab 3|
 |Wk 6: Fri	|16	|Land cover change modeling  – Simulation; Lab 3|
 |Wk 7: Fri	|23	|Terrain and watershed analysis – General terrain analysis techniques ; Lab 4|
