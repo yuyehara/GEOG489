@@ -36,7 +36,7 @@ Optional reference books (not required, use them if you want to learn more than 
 
 |Component	|Score (%)|
 |---------|---------|
-|5 Labs	|50|
+|6 Labs	|50|
 |1 Course project	|40|
 |Participation	|10 | 
 |Total	|100|
