@@ -27,8 +27,6 @@ Optional reference books (not required, use them if you want to learn more than 
 
 * *Kanevski, M.F., and M. Maignan. 2004. Analysis and Modelling of Spatial Environmental Data. EPFL Press, Distributed by Marcel Dekker, Inc. ISBN: 0824759818. (focus on Geostatistics)*
 
-* *Michael N. DeMers. 2002. GIS Modeling in Raster. John Wiley and Sons, Inc. ISBN: 978-0-471-31965-8. (spatial modeling with raster data)*
-
 * *Michael N. DeMers, 2009 Fundamentals of Geographic Information Systems 4th Edition, John Wiley and Sons, Inc. ISBN: 978-0-470-12906-7 (required textbook)*
 
 ## Grading:
