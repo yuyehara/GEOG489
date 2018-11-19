@@ -5,7 +5,7 @@
 
 ##### Course website:<br/> http://laulima.hawaii.edu (for readings and assignments)
 
-##### Class time: Friday – 9AM to 11:30 AM <br/>Location: Physical Sciences Building 310 
+##### Class time: Monday – 1:30PM to 4:00 PM <br/>Location: Physical Sciences Building 310 
 ---
 
 
