@@ -98,4 +98,4 @@ If you have any challenges to learning and need support of any kind, you are inv
 
 
 
-** Important Note: This syllabus is tentative and may change. This is updated on Jan. 2nd, 2018.**
+** Important Note: This syllabus is tentative and may change. This is updated on Jan. 2nd, 2019.**
