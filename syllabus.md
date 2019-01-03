@@ -79,23 +79,22 @@ If you have any challenges to learning and need support of any kind, you are inv
 
 |day |   Date    |  Content|
 |---|---|---|
-|Wk 1: Fri	|Jan 12	|Course Intro; Automate geoprocessing in ArcGIS using ModelBuilder; Lab 1|  
-|Wk 2: Fri	|19	|Automate geoprocessing in ArcGIS using ModelBuilder; Lab 1|
-|Wk 3: Fri	|26	|Review Spatial Overlay and suitability modeling; Lab 2|
-|Wk 4: Fri	|Feb 2	|Suitability Modeling; Lab 2|
-|Wk 5: Fri	|9	|Land cover change modeling – Change and time-series analysis; Lab 3|
-|Wk 6: Fri	|16	|Land cover change modeling  – Simulation; Lab 3|
-|Wk 7: Fri	|23	|Terrain and watershed analysis – General terrain analysis techniques ; Lab 4|
-|Wk 8: Fri	|Mar 2|Terrain and watershed analysis – Stream and watershed delineation; Lab 4|
-|Wk 9: Fri	|9	|Project proposal/progress meeting |
-|Wk 11: Fri	|16	|Accessibility analysis; Lab 5| 
-|Wk 12: Fri	|23	|Accessibility analysis; Lab 5|
-|Wk 10: Fri	|30	|Spring recess|
-|Wk 13: Fri	|Apr 6	|Disaster risk and vulnerability assessment; – Lab 6|
-|Wk 14: Fri	|13	|Holiday: Good Friday |
-|Wk 15: Fri	|20	|Disaster risk and vulnerability assessment; – Lab 6|
-|Wk 16: Fri	|27	|Project Presentation (1)|
-|Wk 17: Fri|	May 4	|Project Presentation (2)|
+|Wk 1: Fri	|Jan 7	|Course Intro; Automate geoprocessing in ArcGIS using ModelBuilder; Lab 1|  
+|Wk 2: Fri	|14	|Automate geoprocessing in ArcGIS using ModelBuilder; Lab 1|
+|Wk 3: Fri	|28	|Review Spatial Overlay and suitability modeling; Lab 2|
+|Wk 4: Fri	|Feb 4|Suitability Modeling; Lab 2|
+|Wk 5: Fri	|11|Land cover change modeling – Change and time-series analysis; Lab 3|
+|Wk 6: Fri	|25	|Land cover change modeling  – Simulation; Lab 3|
+|Wk 7: Fri	|Mar 4|Terrain and watershed analysis – General terrain analysis techniques ; Lab 4|
+|Wk 8: Fri	|11|Terrain and watershed analysis – Stream and watershed delineation; Lab 4|
+|Wk 9: Fri	|25	|Project proposal/progress meeting |
+|Wk 11: Fri	|Apr 1|Accessibility analysis; Lab 5| 
+|Wk 12: Fri	|8	|Accessibility analysis; Lab 5|
+|Wk 10: Fri	|15	|Spring recess|
+|Wk 13: Fri	|22	|Disaster risk and vulnerability assessment; – Lab 6|
+|Wk 14: Fri	|29	|Holiday: Good Friday |
+|Wk 15: Fri	|May	6|Disaster risk and vulnerability assessment; – Lab 6|
+|Wk 16: Fri	|13	|Project Presentation|
 
 
 
