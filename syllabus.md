@@ -1,5 +1,5 @@
                              
-# Geography 489: Applied GIS  (Spring 2018) <br/>Syllabus and Schedule
+# Geography 489: Applied GIS  (Spring 2019) <br/>Syllabus and Schedule
 
 ##### Instructor: Yi Qiang <br/>Email: yi.qiang@hawaii.edu <br/>Office: Saunders Hall 416, (Tel) 956-7526 <br/>Office hours: Tuesday 1:00-2:00 PM or by appointment
 
